@@ -1,0 +1,34 @@
+# Auto-generated 2026-08-23 from the model card in
+#   /path/to/models/gemma-4-12b-it/README.md
+# Sampling values below are the card's own recommendation for THIS mode.
+# Omit a key (delete the line) to let the server's generation_config decide;
+# a key that is absent here is absent from the request body entirely.
+
+config_id: gemma-4-12b-it-nothink
+family: gemma
+model_name: gemma-4-12b-it          # must equal --served-model-name
+base_url: "http://localhost:8000/v1"
+api_key: EMPTY
+
+# analysis metadata -- recorded on every result row, not used at inference
+params_total_b: 12.0
+params_active_b: 12.0
+is_moe: false
+kazakh_specialized: false
+reasoning_regime: "off"
+
+chat_template_kwargs:
+  enable_thinking: false
+
+sampling:
+  temperature: 1.0
+  top_p: 0.95
+  top_k: 64
+  max_tokens: 32768
+
+seed_base: 1234
+max_concurrency: 48
+capture_logprobs: false
+endpoint_kind: vllm
+notes: >-
+  card: one standardized sampling config across all use cases, so think and nothink share it -- the mode is isolated to enable_thinking. The chat template defaults enable_thinking to false. Confirm the vLLM build has a Gemma-4 reasoning parser.

@@ -1,0 +1,44 @@
+{
+  "kept_warned_items": true,
+  "datasets": {
+    "kazmmlu": {
+      "n_generated": 9870,
+      "n_usable": 9726,
+      "n_excluded": 144,
+      "usable_rate": 0.9854,
+      "exclusion_reasons": {
+        "question_paraphrase": 144,
+        "relevant_noise": 19,
+        "irrelevant_noise": 15,
+        "generation error": 14
+      }
+    },
+    "kazculture": {
+      "n_generated": 1334,
+      "n_usable": 1324,
+      "n_excluded": 10,
+      "usable_rate": 0.9925,
+      "exclusion_reasons": {
+        "question_paraphrase": 10
+      }
+    },
+    "kazbench_kk": {
+      "n_generated": 7111,
+      "n_usable": 7077,
+      "n_excluded": 34,
+      "usable_rate": 0.9952,
+      "exclusion_reasons": {
+        "question_paraphrase": 33,
+        "relevant_noise": 4,
+        "irrelevant_noise": 3,
+        "generation error": 2
+      }
+    }
+  },
+  "overall": {
+    "n_generated": 18315,
+    "n_usable": 18127,
+    "n_excluded": 188,
+    "usable_rate": 0.9897
+  }
+}

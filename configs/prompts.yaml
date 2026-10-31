@@ -1,0 +1,30 @@
+# FROZEN prompt texts.  Changing any string here MUST bump prompt_version.
+# Results generated under different prompt_versions are never pooled.
+#
+# Invariants:
+#   * question and options are always Kazakh, byte-identical to source
+#   * the JSON key `answer` is NEVER translated (otherwise output-schema
+#     language becomes a confound in condition I1)
+#   * zero-shot, no few-shot examples, no chain-of-thought instruction
+
+prompt_version: v1
+
+instruction_en: |-
+  You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+  Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+  The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+instruction_kk: |-
+  Сізге қазақ тілінде жазылған көп нұсқалы сұрақ беріледі. Сұрақты және барлық жауап нұсқаларын оқып шығып, ең дұрыс бір нұсқаны таңдаңыз.
+  Тек JSON нысанын қайтарыңыз, басқа ештеңе жазбаңыз, дәл мына пішімде: {"answer": "A"}
+  Мәні — өзіңіз таңдаған нұсқаның әрпі. Ешқандай түсіндірме қоспаңыз және "answer" кілтін аудармаңыз.
+
+output_contract_en: 'Reply with JSON only: {"answer": "<letter>"}'
+output_contract_kk: 'Тек JSON форматында жауап беріңіз: {"answer": "<әріп>"}'
+
+# Assembly template.  Blocks are joined with `block_separator`; empty blocks
+# are dropped.  Order is fixed:
+#   instruction -> noise(before) -> question -> noise(after) -> options -> contract
+block_separator: "\n\n"
+option_line: "{letter}) {text}"
+option_separator: "\n"

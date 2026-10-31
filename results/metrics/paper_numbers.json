@@ -1,0 +1,99 @@
+{
+  "_note": "Every number quoted in the paper comes from this file. Intervals are unadjusted for multiple comparisons across 7 conditions x N configurations and are interpreted as effect sizes, not significance thresholds.",
+  "n_configurations": 18,
+  "n_datasets": 3,
+  "datasets": [
+    "kazbench_kk",
+    "kazculture",
+    "kazmmlu"
+  ],
+  "conditions_present": [
+    "B0",
+    "I1",
+    "N1",
+    "N2",
+    "N3",
+    "N4",
+    "NQI",
+    "NQR",
+    "O1",
+    "O1C",
+    "P1"
+  ],
+  "validity_preserving": [
+    "I1",
+    "N1",
+    "N2",
+    "O1",
+    "P1"
+  ],
+  "distractor": [
+    "N3",
+    "N4"
+  ],
+  "excluded": {
+    "pooled_self_flip_floor_mean": 0.1784692854864912,
+    "pooled_self_flip_floor_max": 0.33529798914140124,
+    "worst_validity_preserving_flip_rate": 0.5190113865843977,
+    "worst_validity_preserving_flip_cell": {
+      "config_id": "gpt-oss-20b-low",
+      "dataset": "kazculture",
+      "condition": "P1",
+      "value": 0.5190113865843977
+    },
+    "mean_validity_preserving_flip_rate": 0.23971692688387472,
+    "median_flip_to_floor_ratio": 1.1930300677667782,
+    "mean_delta_acc_validity_preserving": -0.01191421318622238,
+    "worst_delta_acc_validity_preserving": -0.11994922461230621,
+    "worst_delta_acc_cell": {
+      "config_id": "gemma-4-12b-it-nothink",
+      "dataset": "kazmmlu",
+      "condition": "I1",
+      "value": -0.11994922461230621
+    },
+    "mean_delta_acc_distractor": 0.03156665317075655,
+    "worst_delta_acc_distractor": -0.003166666666666688,
+    "low_margin_share_of_correct_mean": 0.15849190027982885,
+    "n_near_chance_cells": 0,
+    "separable_pair_reversal_fraction_max": 0.014184397163120567,
+    "separable_pair_reversal_fraction_mean": 0.00425531914893617,
+    "n_separable_pairs": 141,
+    "exclusion_sensitivity_max_abs_flip_delta": 0.2047496947496948,
+    "exclusion_sensitivity_max_abs_CI_delta": 0.3482051282051282
+  },
+  "incorrect": {
+    "pooled_self_flip_floor_mean": 0.1804442496591257,
+    "pooled_self_flip_floor_max": 0.33596293513648884,
+    "worst_validity_preserving_flip_rate": 0.5191339375629406,
+    "worst_validity_preserving_flip_cell": {
+      "config_id": "gpt-oss-20b-low",
+      "dataset": "kazculture",
+      "condition": "P1",
+      "value": 0.5191339375629406
+    },
+    "mean_validity_preserving_flip_rate": 0.2417225840140241,
+    "median_flip_to_floor_ratio": 1.1911744603920011,
+    "mean_delta_acc_validity_preserving": -0.01169413300510984,
+    "worst_delta_acc_validity_preserving": -0.12000000000000004,
+    "worst_delta_acc_cell": {
+      "config_id": "gemma-4-12b-it-nothink",
+      "dataset": "kazmmlu",
+      "condition": "I1",
+      "value": -0.12000000000000004
+    },
+    "mean_delta_acc_distractor": 0.03172150889560254,
+    "worst_delta_acc_distractor": -0.003166666666666688,
+    "low_margin_share_of_correct_mean": 0.15803640034199287,
+    "n_near_chance_cells": 0,
+    "separable_pair_reversal_fraction_max": 0.014184397163120567,
+    "separable_pair_reversal_fraction_mean": 0.00425531914893617,
+    "n_separable_pairs": 141,
+    "exclusion_sensitivity_max_abs_flip_delta": 0.2047496947496948,
+    "exclusion_sensitivity_max_abs_CI_delta": 0.3482051282051282
+  },
+  "parse_policy_sensitivity": {
+    "pooled_self_flip_floor_mean": 0.0019749641726344858,
+    "worst_validity_preserving_flip_rate": 0.0001225509785428569,
+    "mean_delta_acc_validity_preserving": 0.00022008018111253913
+  }
+}

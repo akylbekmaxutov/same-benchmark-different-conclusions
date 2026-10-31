@@ -1,0 +1,103 @@
+{
+  "sampling": {
+    "max_per_dataset": 0,
+    "seed": 20250101
+  },
+  "datasets": {
+    "kazmmlu": {
+      "dataset": "kazmmlu",
+      "source_repo": "MBZUAI/KazMMLU",
+      "source_split": "test",
+      "n_items": 9870,
+      "n_categories": 12,
+      "gold_label_distribution": {
+        "A": 2405,
+        "B": 2366,
+        "C": 2265,
+        "D": 2347,
+        "E": 487
+      },
+      "option_count_distribution": {
+        "4": 7263,
+        "5": 2607
+      },
+      "categories": {
+        "Kazakh History (High School in kaz)": 1023,
+        "Kazakh Language (High School in kaz)": 1023,
+        "Biology (High School in kaz)": 1022,
+        "Chemistry (High School in kaz)": 1022,
+        "Geography (High School in kaz)": 1022,
+        "Kazakh Literature (High School in kaz)": 1022,
+        "World History (High School in kaz)": 1022,
+        "Math (High School in kaz)": 1011,
+        "Physics (High School in kaz)": 959,
+        "Law (High School in kaz)": 577,
+        "Informatics (High School in kaz)": 160,
+        "Reading Literacy (High School in kaz)": 7
+      }
+    },
+    "kazculture": {
+      "dataset": "kazculture",
+      "source_repo": "issai/KazCulture",
+      "source_split": "test",
+      "n_items": 1334,
+      "n_categories": 9,
+      "gold_label_distribution": {
+        "A": 334,
+        "B": 334,
+        "C": 333,
+        "D": 333
+      },
+      "option_count_distribution": {
+        "4": 1334
+      },
+      "categories": {
+        "Household": 403,
+        "Cuisine": 362,
+        "Clothing": 360,
+        "Musical instruments": 100,
+        "Traditions and customs": 43,
+        "Livestock": 41,
+        "Craftsmanship": 11,
+        "National games": 10,
+        "Superstitions": 4
+      }
+    },
+    "kazbench_kk": {
+      "dataset": "kazbench_kk",
+      "source_repo": "kz-transformers/kk-socio-cultural-bench-mc",
+      "source_split": "train",
+      "n_items": 7111,
+      "n_categories": 18,
+      "gold_label_distribution": {
+        "A": 729,
+        "B": 3331,
+        "C": 2477,
+        "D": 574
+      },
+      "option_count_distribution": {
+        "4": 7111
+      },
+      "categories": {
+        "History": 1103,
+        "Onomatopoeia and Naming": 621,
+        "Agriculture and Animal Husbandry": 579,
+        "Song Lyrics": 521,
+        "Literature: Poetry and Prose": 501,
+        "Proverbs, Sayings, Spiritual Formulas, Mythology": 499,
+        "Politics and Social Stratification": 453,
+        "Traditions": 439,
+        "Social Relationships": 406,
+        "Arts and Crafts, Performing Arts": 370,
+        "Cuisine and Beverages": 286,
+        "Musical Instruments": 283,
+        "Architecture and Housing Elements": 249,
+        "Traditional Clothing": 224,
+        "Sports and Games": 212,
+        "Humor": 196,
+        "Cinema": 112,
+        "Swearing and Offensive Expressions": 57
+      }
+    }
+  }
+}

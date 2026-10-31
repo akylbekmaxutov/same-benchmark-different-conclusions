@@ -1,0 +1,45 @@
+{
+  "variant": "released",
+  "raw_data_dir": "data",
+  "datasets": {
+    "kazmmlu": {
+      "path": "work/normalized/kazmmlu.jsonl",
+      "n_items": 9726,
+      "n_with_option_e": 2587,
+      "n_four_option": 7139,
+      "missing_generated_fields": {
+        "relevant_noise": 0,
+        "irrelevant_noise": 0,
+        "question_paraphrase": 0
+      },
+      "n_categories": 12,
+      "n_subcategories": 0
+    },
+    "kazculture": {
+      "path": "work/normalized/kazculture.jsonl",
+      "n_items": 1324,
+      "n_with_option_e": 0,
+      "n_four_option": 1324,
+      "missing_generated_fields": {
+        "relevant_noise": 0,
+        "irrelevant_noise": 0,
+        "question_paraphrase": 0
+      },
+      "n_categories": 9,
+      "n_subcategories": 0
+    },
+    "kazbench_kk": {
+      "path": "work/normalized/kazbench_kk.jsonl",
+      "n_items": 7077,
+      "n_with_option_e": 0,
+      "n_four_option": 7077,
+      "missing_generated_fields": {
+        "relevant_noise": 0,
+        "irrelevant_noise": 0,
+        "question_paraphrase": 0
+      },
+      "n_categories": 18,
+      "n_subcategories": 77
+    }
+  }
+}

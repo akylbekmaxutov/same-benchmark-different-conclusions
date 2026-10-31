@@ -1,0 +1,561 @@
+##############################################################################
+# kazmmlu::000016   dataset=kazmmlu
+# category='Biology (High School in kaz)'  subcategory=None
+# gold=C  n_options=5  has_E=True
+##############################################################################
+
+==========================================================================
+--- B0   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Адамның денесін тік ұстауға көмектесетін бұлшықет:
+
+A) Құрсақ, екі басты.
+B) Жамбас, балтыр.
+C) Жамбас, арқа.
+D) Арқа, үш басты.
+E) Балтыр, екібасты.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- N1   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Күз мезгілінде ауа райы жиі құбылып, таңертеңгілік тұман жиі байқалады. Қала көшелеріндегі жапырақтар сары түске боялып, саябақтарда серуендеушілер саны азая бастады. Демалыс күндері көптеген отбасылар табиғат аясына шығуды жоспарлайды.
+
+Адамның денесін тік ұстауға көмектесетін бұлшықет:
+
+A) Құрсақ, екі басты.
+B) Жамбас, балтыр.
+C) Жамбас, арқа.
+D) Арқа, үш басты.
+E) Балтыр, екібасты.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- N2   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Адамның денесін тік ұстауға көмектесетін бұлшықет:
+
+Күз мезгілінде ауа райы жиі құбылып, таңертеңгілік тұман жиі байқалады. Қала көшелеріндегі жапырақтар сары түске боялып, саябақтарда серуендеушілер саны азая бастады. Демалыс күндері көптеген отбасылар табиғат аясына шығуды жоспарлайды.
+
+A) Құрсақ, екі басты.
+B) Жамбас, балтыр.
+C) Жамбас, арқа.
+D) Арқа, үш басты.
+E) Балтыр, екібасты.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- N3   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Адам анатомиясында қаңқа бұлшықеттерінің жиырылуы жүйке жүйесі арқылы реттеледі. Олардың жұмысы энергетикалық алмасу процестерімен тығыз байланысты және гиподинамия кезінде бұлшықет тонусы біртіндеп әлсірейді. Бұл үдерістер ағзаның кеңістіктегі орнын бақылауға тікелей әсер етпейді.
+
+Адамның денесін тік ұстауға көмектесетін бұлшықет:
+
+A) Құрсақ, екі басты.
+B) Жамбас, балтыр.
+C) Жамбас, арқа.
+D) Арқа, үш басты.
+E) Балтыр, екібасты.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- N4   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Адамның денесін тік ұстауға көмектесетін бұлшықет:
+
+Адам анатомиясында қаңқа бұлшықеттерінің жиырылуы жүйке жүйесі арқылы реттеледі. Олардың жұмысы энергетикалық алмасу процестерімен тығыз байланысты және гиподинамия кезінде бұлшықет тонусы біртіндеп әлсірейді. Бұл үдерістер ағзаның кеңістіктегі орнын бақылауға тікелей әсер етпейді.
+
+A) Құрсақ, екі басты.
+B) Жамбас, балтыр.
+C) Жамбас, арқа.
+D) Арқа, үш басты.
+E) Балтыр, екібасты.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- I1   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+Сізге қазақ тілінде жазылған көп нұсқалы сұрақ беріледі. Сұрақты және барлық жауап нұсқаларын оқып шығып, ең дұрыс бір нұсқаны таңдаңыз.
+Тек JSON нысанын қайтарыңыз, басқа ештеңе жазбаңыз, дәл мына пішімде: {"answer": "A"}
+Мәні — өзіңіз таңдаған нұсқаның әрпі. Ешқандай түсіндірме қоспаңыз және "answer" кілтін аудармаңыз.
+
+Адамның денесін тік ұстауға көмектесетін бұлшықет:
+
+A) Құрсақ, екі басты.
+B) Жамбас, балтыр.
+C) Жамбас, арқа.
+D) Арқа, үш басты.
+E) Балтыр, екібасты.
+
+Тек JSON форматында жауап беріңіз: {"answer": "<әріп>"}
+
+==========================================================================
+--- O1   gold=C (orig C)  perm={'E': 'A', 'A': 'B', 'C': 'C', 'B': 'D', 'D': 'E'}  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Адамның денесін тік ұстауға көмектесетін бұлшықет:
+
+A) Балтыр, екібасты.
+B) Құрсақ, екі басты.
+C) Жамбас, арқа.
+D) Жамбас, балтыр.
+E) Арқа, үш басты.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- P1   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Адамның дене тұрқының тік қалыпта болуына жауап беретін бұлшықет топтары қандай?
+
+A) Құрсақ, екі басты.
+B) Жамбас, балтыр.
+C) Жамбас, арқа.
+D) Арқа, үш басты.
+E) Балтыр, екібасты.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+##############################################################################
+# kazculture::000000   dataset=kazculture
+# category='Household'  subcategory=None
+# gold=C  n_options=4  has_E=False
+##############################################################################
+
+==========================================================================
+--- B0   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Көлікті ат, шана үстінен немен айдайды?
+
+A) Арқанмен айдайды.
+B) Таяқпен айдайды.
+C) Шыбыртқымен айдайды.
+D) Қолмен айдайды.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- N1   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Бүгінгі таңда қала көшелерінде электр самокаттар мен велосипедтерді жалға беру қызметі кең таралған. Жастар бұл экологиялық таза көлік түрлерін жұмысқа немесе оқуға барар жолда жиі қолданады, өйткені олар уақытты үнемдеуге және кептелістен өтуге мүмкіндік береді.
+
+Көлікті ат, шана үстінен немен айдайды?
+
+A) Арқанмен айдайды.
+B) Таяқпен айдайды.
+C) Шыбыртқымен айдайды.
+D) Қолмен айдайды.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- N2   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Көлікті ат, шана үстінен немен айдайды?
+
+Бүгінгі таңда қала көшелерінде электр самокаттар мен велосипедтерді жалға беру қызметі кең таралған. Жастар бұл экологиялық таза көлік түрлерін жұмысқа немесе оқуға барар жолда жиі қолданады, өйткені олар уақытты үнемдеуге және кептелістен өтуге мүмкіндік береді.
+
+A) Арқанмен айдайды.
+B) Таяқпен айдайды.
+C) Шыбыртқымен айдайды.
+D) Қолмен айдайды.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- N3   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Қыс мезгілінде қазақтар жүк тасымалдау және алыс жолға шығу үшін шана мен атты жиі пайдаланған. Бұл көлік түрлері қар үстімен жүруге өте ыңғайлы болып келеді және ауыр жүктерді көтеруге арналған арнайы жабдықтармен жабдықталады.
+
+Көлікті ат, шана үстінен немен айдайды?
+
+A) Арқанмен айдайды.
+B) Таяқпен айдайды.
+C) Шыбыртқымен айдайды.
+D) Қолмен айдайды.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- N4   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Көлікті ат, шана үстінен немен айдайды?
+
+Қыс мезгілінде қазақтар жүк тасымалдау және алыс жолға шығу үшін шана мен атты жиі пайдаланған. Бұл көлік түрлері қар үстімен жүруге өте ыңғайлы болып келеді және ауыр жүктерді көтеруге арналған арнайы жабдықтармен жабдықталады.
+
+A) Арқанмен айдайды.
+B) Таяқпен айдайды.
+C) Шыбыртқымен айдайды.
+D) Қолмен айдайды.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- I1   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+Сізге қазақ тілінде жазылған көп нұсқалы сұрақ беріледі. Сұрақты және барлық жауап нұсқаларын оқып шығып, ең дұрыс бір нұсқаны таңдаңыз.
+Тек JSON нысанын қайтарыңыз, басқа ештеңе жазбаңыз, дәл мына пішімде: {"answer": "A"}
+Мәні — өзіңіз таңдаған нұсқаның әрпі. Ешқандай түсіндірме қоспаңыз және "answer" кілтін аудармаңыз.
+
+Көлікті ат, шана үстінен немен айдайды?
+
+A) Арқанмен айдайды.
+B) Таяқпен айдайды.
+C) Шыбыртқымен айдайды.
+D) Қолмен айдайды.
+
+Тек JSON форматында жауап беріңіз: {"answer": "<әріп>"}
+
+==========================================================================
+--- O1   gold=B (orig C)  perm={'D': 'A', 'C': 'B', 'A': 'C', 'B': 'D'}  slot=1
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Көлікті ат, шана үстінен немен айдайды?
+
+A) Қолмен айдайды.
+B) Шыбыртқымен айдайды.
+C) Арқанмен айдайды.
+D) Таяқпен айдайды.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- P1   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Ат пен шанаға жегілген көлікті айдау үшін не қолданылады?
+
+A) Арқанмен айдайды.
+B) Таяқпен айдайды.
+C) Шыбыртқымен айдайды.
+D) Қолмен айдайды.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- O1C rot0   gold=C (orig C)  perm={'A': 'A', 'B': 'B', 'C': 'C', 'D': 'D'}  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Көлікті ат, шана үстінен немен айдайды?
+
+A) Арқанмен айдайды.
+B) Таяқпен айдайды.
+C) Шыбыртқымен айдайды.
+D) Қолмен айдайды.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- O1C rot1   gold=B (orig C)  perm={'B': 'A', 'C': 'B', 'D': 'C', 'A': 'D'}  slot=1
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Көлікті ат, шана үстінен немен айдайды?
+
+A) Таяқпен айдайды.
+B) Шыбыртқымен айдайды.
+C) Қолмен айдайды.
+D) Арқанмен айдайды.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- O1C rot2   gold=A (orig C)  perm={'C': 'A', 'D': 'B', 'A': 'C', 'B': 'D'}  slot=0
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Көлікті ат, шана үстінен немен айдайды?
+
+A) Шыбыртқымен айдайды.
+B) Қолмен айдайды.
+C) Арқанмен айдайды.
+D) Таяқпен айдайды.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- O1C rot3   gold=D (orig C)  perm={'D': 'A', 'A': 'B', 'B': 'C', 'C': 'D'}  slot=3
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Көлікті ат, шана үстінен немен айдайды?
+
+A) Қолмен айдайды.
+B) Арқанмен айдайды.
+C) Таяқпен айдайды.
+D) Шыбыртқымен айдайды.
+
+Reply with JSON only: {"answer": "<letter>"}
+
+##############################################################################
+# kazbench_kk::000001   dataset=kazbench_kk
+# category='History'  subcategory='Collective Memory and Cultural Heritage'
+# gold=C  n_options=4  has_E=False
+##############################################################################
+
+==========================================================================
+--- B0   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Алаша хан кесенесі қай ғасырда тұрғызылған?
+
+A) XI ғасырда
+B) XII ғасырда
+C) XIV ғасырда
+D) XV ғасырда
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- N1   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Көктем мезгілі келгенде табиғат ұйқыдан оянып, айнала жасыл желекке оранды. Күннің жылынуына байланысты қала тұрғындары демалыс күндері саябақтарға шығып, серуендеуді әдетке айналдырды. Әсіресе балалардың көңілді күлкісі мен құстардың сайраған дауысы жанға ерекше қуат сыйлайды.
+
+Алаша хан кесенесі қай ғасырда тұрғызылған?
+
+A) XI ғасырда
+B) XII ғасырда
+C) XIV ғасырда
+D) XV ғасырда
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- N2   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Алаша хан кесенесі қай ғасырда тұрғызылған?
+
+Көктем мезгілі келгенде табиғат ұйқыдан оянып, айнала жасыл желекке оранды. Күннің жылынуына байланысты қала тұрғындары демалыс күндері саябақтарға шығып, серуендеуді әдетке айналдырды. Әсіресе балалардың көңілді күлкісі мен құстардың сайраған дауысы жанға ерекше қуат сыйлайды.
+
+A) XI ғасырда
+B) XII ғасырда
+C) XIV ғасырда
+D) XV ғасырда
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- N3   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Алаша хан кесенесі Ұлытау өңіріндегі сәулет өнерінің ең көне де ерекше ескерткіштерінің бірі болып табылады. Бұл тарихи құрылыстың қабырғаларын қалау барысында қолданылған кірпіштердің өлшемі мен өрнектелу әдісі ортағасырлық шеберлердің жоғары деңгейін көрсетеді. Зерттеушілер кесененің маңында көне дәуірге тиесілі қорымдар мен балбал тастардың бар екенін де бірнеше рет атап өткен.
+
+Алаша хан кесенесі қай ғасырда тұрғызылған?
+
+A) XI ғасырда
+B) XII ғасырда
+C) XIV ғасырда
+D) XV ғасырда
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- N4   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Алаша хан кесенесі қай ғасырда тұрғызылған?
+
+Алаша хан кесенесі Ұлытау өңіріндегі сәулет өнерінің ең көне де ерекше ескерткіштерінің бірі болып табылады. Бұл тарихи құрылыстың қабырғаларын қалау барысында қолданылған кірпіштердің өлшемі мен өрнектелу әдісі ортағасырлық шеберлердің жоғары деңгейін көрсетеді. Зерттеушілер кесененің маңында көне дәуірге тиесілі қорымдар мен балбал тастардың бар екенін де бірнеше рет атап өткен.
+
+A) XI ғасырда
+B) XII ғасырда
+C) XIV ғасырда
+D) XV ғасырда
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- I1   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+Сізге қазақ тілінде жазылған көп нұсқалы сұрақ беріледі. Сұрақты және барлық жауап нұсқаларын оқып шығып, ең дұрыс бір нұсқаны таңдаңыз.
+Тек JSON нысанын қайтарыңыз, басқа ештеңе жазбаңыз, дәл мына пішімде: {"answer": "A"}
+Мәні — өзіңіз таңдаған нұсқаның әрпі. Ешқандай түсіндірме қоспаңыз және "answer" кілтін аудармаңыз.
+
+Алаша хан кесенесі қай ғасырда тұрғызылған?
+
+A) XI ғасырда
+B) XII ғасырда
+C) XIV ғасырда
+D) XV ғасырда
+
+Тек JSON форматында жауап беріңіз: {"answer": "<әріп>"}
+
+==========================================================================
+--- O1   gold=A (orig C)  perm={'C': 'A', 'B': 'B', 'D': 'C', 'A': 'D'}  slot=0
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Алаша хан кесенесі қай ғасырда тұрғызылған?
+
+A) XIV ғасырда
+B) XII ғасырда
+C) XV ғасырда
+D) XI ғасырда
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- P1   gold=C (orig C)  perm=None  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Алаша хан күмбезінің салынған уақыты қай ғасырға жатады?
+
+A) XI ғасырда
+B) XII ғасырда
+C) XIV ғасырда
+D) XV ғасырда
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- O1C rot0   gold=C (orig C)  perm={'A': 'A', 'B': 'B', 'C': 'C', 'D': 'D'}  slot=2
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Алаша хан кесенесі қай ғасырда тұрғызылған?
+
+A) XI ғасырда
+B) XII ғасырда
+C) XIV ғасырда
+D) XV ғасырда
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- O1C rot1   gold=B (orig C)  perm={'B': 'A', 'C': 'B', 'D': 'C', 'A': 'D'}  slot=1
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Алаша хан кесенесі қай ғасырда тұрғызылған?
+
+A) XII ғасырда
+B) XIV ғасырда
+C) XV ғасырда
+D) XI ғасырда
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- O1C rot2   gold=A (orig C)  perm={'C': 'A', 'D': 'B', 'A': 'C', 'B': 'D'}  slot=0
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Алаша хан кесенесі қай ғасырда тұрғызылған?
+
+A) XIV ғасырда
+B) XV ғасырда
+C) XI ғасырда
+D) XII ғасырда
+
+Reply with JSON only: {"answer": "<letter>"}
+
+==========================================================================
+--- O1C rot3   gold=D (orig C)  perm={'D': 'A', 'A': 'B', 'B': 'C', 'C': 'D'}  slot=3
+==========================================================================
+You are answering a multiple-choice question written in Kazakh. Read the question and all of the answer options, then choose the single best option.
+Reply with a JSON object and nothing else, in exactly this form: {"answer": "A"}
+The value must be the letter of the option you choose. Do not add any explanation, and do not translate the key "answer".
+
+Алаша хан кесенесі қай ғасырда тұрғызылған?
+
+A) XV ғасырда
+B) XI ғасырда
+C) XII ғасырда
+D) XIV ғасырда
+
+Reply with JSON only: {"answer": "<letter>"}

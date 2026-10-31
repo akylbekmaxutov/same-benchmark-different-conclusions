@@ -1,0 +1,44 @@
+{
+  "provenance": {
+    "gemini_model": "gemini-3.5-flash-lite",
+    "current_prompt_version": "v1.1",
+    "current_generation_params": {
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "max_output_tokens": 2048,
+      "response_mime_type": "application/json"
+    },
+    "generation_date": "2026-08-12",
+    "rounds": [
+      {
+        "round": 1,
+        "gemini_model": "gemini-3.5-flash-lite",
+        "prompt_version": "v1.0",
+        "n_requests": 18315
+      },
+      {
+        "round": 2,
+        "gemini_model": "gemini-3.5-flash-lite",
+        "prompt_version": "v1.1",
+        "n_requests": 625
+      }
+    ],
+    "note": "Per-item provenance is in the `generation_round` field of every released record; see reports/generation_provenance.json."
+  },
+  "datasets": {
+    "kazmmlu": {
+      "total": 9870,
+      "complete": 9856,
+      "incomplete": 14
+    },
+    "kazculture": {
+      "total": 1334,
+      "complete": 1334
+    },
+    "kazbench_kk": {
+      "total": 7111,
+      "complete": 7109,
+      "incomplete": 2
+    }
+  }
+}

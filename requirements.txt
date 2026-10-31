@@ -1,0 +1,22 @@
+# Stage 1 - dataset preparation + Gemini batch generation
+datasets>=2.19.0
+huggingface_hub>=0.23.0
+google-genai>=1.0.0
+python-dotenv>=1.0.0
+
+# Stage 2 - evaluation against vLLM (OpenAI-compatible) endpoints
+openai>=1.40.0
+
+# Shared
+tqdm>=4.66.0
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Stage 2 (rebuilt harness, see HARNESS.md) - installed via `pip install -e .`
+pydantic>=2.5
+pyyaml>=6.0
+orjson>=3.9
+pyarrow>=14.0
+matplotlib>=3.8
+# optional: transformers (prompt-length guard), sentence-transformers (paraphrase screen)

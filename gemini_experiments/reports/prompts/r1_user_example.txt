@@ -1,0 +1,55 @@
+You are given one Kazakh multiple-choice question from the benchmark "kazbench_kk"
+(category: Traditions). Produce three pieces of Kazakh text for a controlled
+perturbation study.
+
+### Source item
+Question:
+Құран бағыштау рәсімінде қандай амалдар жасалмайды?
+
+Options:
+A) Құран аяттарын оқу
+B) Дұға жасау
+C) Жақсылық жасау
+D) Шарап ішу
+
+Correct answer: D) Шарап ішу
+
+### What to produce
+
+1. "relevant_noise" — a short passage in Kazakh that is TOPICALLY RELATED to the
+   question and plausible in context, but MISLEADING or distracting. It must:
+   - stay on the same broad topic as the question;
+   - introduce competing, tangential or attention-pulling information;
+   - NOT be needed to answer the question;
+   - NOT change which option is correct — after reading it, "D" must still be
+     the single correct answer;
+   - NOT make the question invalid, ambiguous or unanswerable;
+   - NOT state, hint at, negate or rank any of the answer options;
+   - NOT contain the text of any answer option, nor any option letter (A/B/C/D/E),
+     nor phrases such as "дұрыс жауап".
+   This is relevant-but-distracting context, not a fabricated alternative gold answer.
+   Length: 2-4 sentences, approximately 45 words.
+
+2. "irrelevant_noise" — a short passage in Kazakh that is natural, fluent, and
+   COMPLETELY UNRELATED to the knowledge the question requires. It must:
+   - be about a different subject entirely (everyday life, weather, travel,
+     a neutral fact, etc.);
+   - be unable to help anyone determine the answer;
+   - not contradict or comment on the question in any way;
+   - not mention any answer option or option letter.
+   Length: 2-4 sentences, approximately the same length as "relevant_noise"
+   (approximately 45 words).
+
+3. "question_paraphrase" — exactly ONE rewording of the question, entirely in Kazakh.
+   It must:
+   - preserve the meaning and the knowledge required;
+   - keep "D" as the correct answer with the SAME answer options;
+   - keep every negation (емес, жоқ, ешбір, ...), number, date, unit, name and
+     technical term intact;
+   - not be simplified, not be made harder, not add hints or extra facts;
+   - not reference or restate the answer options;
+   - be a genuinely different surface wording, not a copy of the original.
+
+### Output
+Return exactly this JSON object and nothing else:
+{"relevant_noise": "...", "irrelevant_noise": "...", "question_paraphrase": "..."}

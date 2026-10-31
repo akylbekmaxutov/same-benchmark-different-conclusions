@@ -1,0 +1,13 @@
+{
+  "stats": {
+    "n": 53240,
+    "format_valid": 9976,
+    "correct": 33343,
+    "completion_tokens": 2987985,
+    "parse_failed": 33,
+    "homoglyph": 3,
+    "errors": 2,
+    "error_timeout": 2
+  },
+  "warnings": []
+}

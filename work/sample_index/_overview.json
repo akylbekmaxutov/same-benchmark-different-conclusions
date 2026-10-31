@@ -1,0 +1,35 @@
+{
+  "n_target": 2000,
+  "seed": 20260815,
+  "datasets": {
+    "kazmmlu": {
+      "n_available": 9726,
+      "n_target": 2000,
+      "n_sampled": 2000,
+      "sampling_applied": true,
+      "stratify_key": [
+        "category"
+      ],
+      "key_reason": "no thin cells"
+    },
+    "kazculture": {
+      "n_available": 1324,
+      "n_target": 2000,
+      "n_sampled": 1324,
+      "sampling_applied": false,
+      "stratify_key": null,
+      "key_reason": "sampling not applied"
+    },
+    "kazbench_kk": {
+      "n_available": 7077,
+      "n_target": 2000,
+      "n_sampled": 2000,
+      "sampling_applied": true,
+      "stratify_key": [
+        "category"
+      ],
+      "key_reason": "no thin cells"
+    }
+  },
+  "n_total_sampled": 5324
+}

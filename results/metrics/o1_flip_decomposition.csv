@@ -1,0 +1,55 @@
+config_id,dataset,parse_policy,n_flips,position_attributable_share,genuine_instability_share,note,favoured_slot
+gemma-4-12b-it-nothink,kazbench_kk,incorrect,1457,,,no O1C diagnostic for this cell,
+gemma-4-12b-it-nothink,kazculture,incorrect,1239,,,no O1C diagnostic for this cell,
+gemma-4-12b-it-nothink,kazmmlu,incorrect,1392,,,no O1C diagnostic for this cell,
+gemma-4-12b-it-think,kazbench_kk,incorrect,1423,,,no O1C diagnostic for this cell,
+gemma-4-12b-it-think,kazculture,incorrect,1228,,,no O1C diagnostic for this cell,
+gemma-4-12b-it-think,kazmmlu,incorrect,1147,,,no O1C diagnostic for this cell,
+gemma-4-26b-a4b-it-nothink,kazbench_kk,incorrect,1229,,,no O1C diagnostic for this cell,
+gemma-4-26b-a4b-it-nothink,kazculture,incorrect,1149,,,no O1C diagnostic for this cell,
+gemma-4-26b-a4b-it-nothink,kazmmlu,incorrect,1406,,,no O1C diagnostic for this cell,
+gemma-4-26b-a4b-it-think,kazbench_kk,incorrect,1065,,,no O1C diagnostic for this cell,
+gemma-4-26b-a4b-it-think,kazculture,incorrect,960,,,no O1C diagnostic for this cell,
+gemma-4-26b-a4b-it-think,kazmmlu,incorrect,729,,,no O1C diagnostic for this cell,
+gemma-4-31b-it-nothink,kazbench_kk,incorrect,968,,,no O1C diagnostic for this cell,
+gemma-4-31b-it-nothink,kazculture,incorrect,915,,,no O1C diagnostic for this cell,
+gemma-4-31b-it-nothink,kazmmlu,incorrect,932,,,no O1C diagnostic for this cell,
+gemma-4-31b-it-think,kazbench_kk,incorrect,829,0.2677925211097708,0.7322074788902292,,1.0
+gemma-4-31b-it-think,kazculture,incorrect,700,0.3057142857142857,0.6942857142857143,,1.0
+gemma-4-31b-it-think,kazmmlu,incorrect,585,0.24273504273504273,0.7572649572649572,,1.0
+gpt-oss-20b-high,kazbench_kk,incorrect,2097,0.26514067715784456,0.7348593228421554,,2.0
+gpt-oss-20b-high,kazculture,incorrect,1832,0.22980349344978165,0.7701965065502183,,0.0
+gpt-oss-20b-high,kazmmlu,incorrect,1521,0.2511505588428665,0.7488494411571335,,2.0
+gpt-oss-20b-low,kazbench_kk,incorrect,2135,,,no O1C diagnostic for this cell,
+gpt-oss-20b-low,kazculture,incorrect,1901,,,no O1C diagnostic for this cell,
+gpt-oss-20b-low,kazmmlu,incorrect,1594,,,no O1C diagnostic for this cell,
+muse-glimmer-30b-high,kazbench_kk,incorrect,958,0.33402922755741127,0.6659707724425887,,0.0
+muse-glimmer-30b-high,kazculture,incorrect,890,0.3449438202247191,0.655056179775281,,0.0
+muse-glimmer-30b-high,kazmmlu,incorrect,683,0.2342606149341142,0.7657393850658858,,1.0
+muse-glimmer-30b-low,kazbench_kk,incorrect,1012,,,no O1C diagnostic for this cell,
+muse-glimmer-30b-low,kazculture,incorrect,904,,,no O1C diagnostic for this cell,
+muse-glimmer-30b-low,kazmmlu,incorrect,696,,,no O1C diagnostic for this cell,
+qolda-avl-34b,kazbench_kk,incorrect,1539,,,no O1C diagnostic for this cell,
+qolda-avl-34b,kazculture,incorrect,1274,,,no O1C diagnostic for this cell,
+qolda-avl-34b,kazmmlu,incorrect,1191,,,no O1C diagnostic for this cell,
+qolda-avl-9b,kazbench_kk,incorrect,1840,0.28152173913043477,0.7184782608695652,,2.0
+qolda-avl-9b,kazculture,incorrect,1484,0.27695417789757415,0.7230458221024259,,2.0
+qolda-avl-9b,kazmmlu,incorrect,1515,0.3108910891089109,0.689108910891089,,2.0
+qwen3.5-9b-nothink,kazbench_kk,incorrect,1662,0.3098676293622142,0.6901323706377858,,1.0
+qwen3.5-9b-nothink,kazculture,incorrect,1619,0.28227300802964794,0.7177269919703521,,2.0
+qwen3.5-9b-nothink,kazmmlu,incorrect,2073,0.30487216594307764,0.6951278340569224,,1.0
+qwen3.5-9b-think,kazbench_kk,incorrect,1564,0.23465473145780052,0.7653452685421995,,2.0
+qwen3.5-9b-think,kazculture,incorrect,1461,0.23203285420944558,0.7679671457905544,,2.0
+qwen3.5-9b-think,kazmmlu,incorrect,1118,0.26744186046511625,0.7325581395348837,,0.0
+qwen3.6-35b-a3b-nothink,kazbench_kk,incorrect,1328,,,no O1C diagnostic for this cell,
+qwen3.6-35b-a3b-nothink,kazculture,incorrect,1234,,,no O1C diagnostic for this cell,
+qwen3.6-35b-a3b-nothink,kazmmlu,incorrect,1556,,,no O1C diagnostic for this cell,
+qwen3.6-35b-a3b-think,kazbench_kk,incorrect,1284,,,no O1C diagnostic for this cell,
+qwen3.6-35b-a3b-think,kazculture,incorrect,1234,,,no O1C diagnostic for this cell,
+qwen3.6-35b-a3b-think,kazmmlu,incorrect,915,,,no O1C diagnostic for this cell,
+qwen3.8-27b-nothink,kazbench_kk,incorrect,1535,,,no O1C diagnostic for this cell,
+qwen3.8-27b-nothink,kazculture,incorrect,1394,,,no O1C diagnostic for this cell,
+qwen3.8-27b-nothink,kazmmlu,incorrect,1901,,,no O1C diagnostic for this cell,
+qwen3.8-27b-think,kazbench_kk,incorrect,1532,,,no O1C diagnostic for this cell,
+qwen3.8-27b-think,kazculture,incorrect,1299,,,no O1C diagnostic for this cell,
+qwen3.8-27b-think,kazmmlu,incorrect,937,,,no O1C diagnostic for this cell,

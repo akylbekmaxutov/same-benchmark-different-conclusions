@@ -1,0 +1,470 @@
+{
+  "id_alignment": {
+    "kazmmlu": {
+      "n": 9726,
+      "unique": true
+    },
+    "kazculture": {
+      "n": 1324,
+      "unique": true
+    },
+    "kazbench_kk": {
+      "n": 7077,
+      "unique": true
+    },
+    "_global": {
+      "n": 18127,
+      "unique_across_files": true
+    }
+  },
+  "datasets": {
+    "kazmmlu": {
+      "n_items": 9726,
+      "missing_generated_fields": {
+        "relevant_noise": 0,
+        "irrelevant_noise": 0,
+        "question_paraphrase": 0
+      },
+      "gold_leakage": {
+        "per_field": {
+          "relevant_noise": {
+            "n_tested": 9726,
+            "gold_hit": 8,
+            "gold_hit_rate": 0.0008225375282747275,
+            "distractor_hit_rate": 0.001611957796014068
+          },
+          "irrelevant_noise": {
+            "n_tested": 9726,
+            "gold_hit": 0,
+            "gold_hit_rate": 0.0,
+            "distractor_hit_rate": 0.0002442360296991012
+          },
+          "question_paraphrase": {
+            "n_tested": 9726,
+            "gold_hit": 18,
+            "gold_hit_rate": 0.001850709438618137,
+            "distractor_hit_rate": 0.0033216100039077765
+          }
+        },
+        "flagged": [
+          {
+            "uid": "kazmmlu::001450",
+            "field": "question_paraphrase",
+            "gold": "\\(KMnO_4, K_2Cr_2O_7, MnO_2, KClO_3\\)"
+          },
+          {
+            "uid": "kazmmlu::001938",
+            "field": "question_paraphrase",
+            "gold": "0,3 моль"
+          },
+          {
+            "uid": "kazmmlu::004156",
+            "field": "relevant_noise",
+            "gold": "Ұлт – азаттық."
+          },
+          {
+            "uid": "kazmmlu::004298",
+            "field": "question_paraphrase",
+            "gold": "Қанатына."
+          },
+          {
+            "uid": "kazmmlu::004299",
+            "field": "question_paraphrase",
+            "gold": "«Төл сөз,» - автор сөзі."
+          },
+          {
+            "uid": "kazmmlu::004438",
+            "field": "question_paraphrase",
+            "gold": "Байыз таппады"
+          },
+          {
+            "uid": "kazmmlu::004675",
+            "field": "question_paraphrase",
+            "gold": "Өле өлгенше."
+          },
+          {
+            "uid": "kazmmlu::004728",
+            "field": "relevant_noise",
+            "gold": "Көркем әдебиет."
+          },
+          {
+            "uid": "kazmmlu::004738",
+            "field": "question_paraphrase",
+            "gold": "Жаңбырша"
+          },
+          {
+            "uid": "kazmmlu::004931",
+            "field": "relevant_noise",
+            "gold": "Орын тәртібі."
+          },
+          {
+            "uid": "kazmmlu::005173",
+            "field": "question_paraphrase",
+            "gold": "Жиырма бес жасар."
+          },
+          {
+            "uid": "kazmmlu::005279",
+            "field": "question_paraphrase",
+            "gold": "«Қар қызы»"
+          },
+          {
+            "uid": "kazmmlu::005293",
+            "field": "question_paraphrase",
+            "gold": "\"Бостандық\"."
+          },
+          {
+            "uid": "kazmmlu::005309",
+            "field": "question_paraphrase",
+            "gold": "«Қара өлең»"
+          },
+          {
+            "uid": "kazmmlu::005331",
+            "field": "question_paraphrase",
+            "gold": "Дала – өлік"
+          },
+          {
+            "uid": "kazmmlu::005468",
+            "field": "relevant_noise",
+            "gold": "XV ғасырда"
+          },
+          {
+            "uid": "kazmmlu::005583",
+            "field": "relevant_noise",
+            "gold": "Жарылғас."
+          },
+          {
+            "uid": "kazmmlu::005607",
+            "field": "relevant_noise",
+            "gold": "Қыз айттыру."
+          },
+          {
+            "uid": "kazmmlu::005693",
+            "field": "relevant_noise",
+            "gold": "Гипербола."
+          },
+          {
+            "uid": "kazmmlu::006007",
+            "field": "question_paraphrase",
+            "gold": "«Азат әйел»."
+          },
+          {
+            "uid": "kazmmlu::006174",
+            "field": "question_paraphrase",
+            "gold": "\"Қорқыт ата\" кітабы."
+          },
+          {
+            "uid": "kazmmlu::006885",
+            "field": "question_paraphrase",
+            "gold": "\\(\\sqrt{x}-\\sqrt{5}-1\\)"
+          },
+          {
+            "uid": "kazmmlu::008844",
+            "field": "question_paraphrase",
+            "gold": "Голощекин тұсында"
+          },
+          {
+            "uid": "kazmmlu::008846",
+            "field": "question_paraphrase",
+            "gold": "бас тартады"
+          },
+          {
+            "uid": "kazmmlu::008847",
+            "field": "question_paraphrase",
+            "gold": "ең оперативті құрал"
+          },
+          {
+            "uid": "kazmmlu::008927",
+            "field": "relevant_noise",
+            "gold": "Оңтүстік"
+          }
+        ],
+        "n_flagged": 26
+      },
+      "noise_lengths": {
+        "relevant_noise": {
+          "n": 9726,
+          "chars_mean": 292.5,
+          "chars_median": 291.0,
+          "chars_p05": 232,
+          "chars_p95": 358,
+          "words_mean": 34.8
+        },
+        "irrelevant_noise": {
+          "n": 9726,
+          "chars_mean": 249.8,
+          "chars_median": 250.0,
+          "chars_p05": 196,
+          "chars_p95": 306,
+          "words_mean": 31.4
+        },
+        "question_paraphrase": {
+          "n": 9726,
+          "chars_mean": 96.0,
+          "chars_median": 83.0,
+          "chars_p05": 44,
+          "chars_p95": 180,
+          "words_mean": 12.2
+        }
+      },
+      "option_integrity": {
+        "n_checked": 17204,
+        "n_option_text_mutated": 0,
+        "examples_mutated": [],
+        "n_bad_permutation": 0,
+        "examples_bad_permutation": []
+      },
+      "p1_options_mutated": 0,
+      "n_with_option_e": 2587,
+      "sample_index": {
+        "n_available": 9726,
+        "n_target": 2000,
+        "n_sampled": 2000,
+        "sampling_applied": true,
+        "stratify_key": [
+          "category"
+        ],
+        "seed": 20260815
+      }
+    },
+    "kazculture": {
+      "n_items": 1324,
+      "missing_generated_fields": {
+        "relevant_noise": 0,
+        "irrelevant_noise": 0,
+        "question_paraphrase": 0
+      },
+      "gold_leakage": {
+        "per_field": {
+          "relevant_noise": {
+            "n_tested": 1324,
+            "gold_hit": 2,
+            "gold_hit_rate": 0.0015105740181268882,
+            "distractor_hit_rate": 0.00034411562284927734
+          },
+          "irrelevant_noise": {
+            "n_tested": 1324,
+            "gold_hit": 0,
+            "gold_hit_rate": 0.0,
+            "distractor_hit_rate": 0.0
+          },
+          "question_paraphrase": {
+            "n_tested": 1324,
+            "gold_hit": 0,
+            "gold_hit_rate": 0.0,
+            "distractor_hit_rate": 0.00034411562284927734
+          }
+        },
+        "flagged": [
+          {
+            "uid": "kazculture::000609",
+            "field": "relevant_noise",
+            "gold": "Қараңғылық"
+          },
+          {
+            "uid": "kazculture::000885",
+            "field": "relevant_noise",
+            "gold": "Болмайды"
+          }
+        ],
+        "n_flagged": 2
+      },
+      "noise_lengths": {
+        "relevant_noise": {
+          "n": 1324,
+          "chars_mean": 270.6,
+          "chars_median": 270.0,
+          "chars_p05": 216,
+          "chars_p95": 329,
+          "words_mean": 34.4
+        },
+        "irrelevant_noise": {
+          "n": 1324,
+          "chars_mean": 245.6,
+          "chars_median": 246.0,
+          "chars_p05": 192,
+          "chars_p95": 298,
+          "words_mean": 30.9
+        },
+        "question_paraphrase": {
+          "n": 1324,
+          "chars_mean": 72.8,
+          "chars_median": 71.0,
+          "chars_p05": 34,
+          "chars_p95": 117,
+          "words_mean": 9.8
+        }
+      },
+      "option_integrity": {
+        "n_checked": 11748,
+        "n_option_text_mutated": 0,
+        "examples_mutated": [],
+        "n_bad_permutation": 0,
+        "examples_bad_permutation": []
+      },
+      "p1_options_mutated": 0,
+      "n_with_option_e": 0,
+      "sample_index": {
+        "n_available": 1324,
+        "n_target": 2000,
+        "n_sampled": 1324,
+        "sampling_applied": false,
+        "stratify_key": null,
+        "seed": 20260815
+      }
+    },
+    "kazbench_kk": {
+      "n_items": 7077,
+      "missing_generated_fields": {
+        "relevant_noise": 0,
+        "irrelevant_noise": 0,
+        "question_paraphrase": 0
+      },
+      "gold_leakage": {
+        "per_field": {
+          "relevant_noise": {
+            "n_tested": 7077,
+            "gold_hit": 6,
+            "gold_hit_rate": 0.000847816871555744,
+            "distractor_hit_rate": 0.0005556790397866192
+          },
+          "irrelevant_noise": {
+            "n_tested": 7077,
+            "gold_hit": 0,
+            "gold_hit_rate": 0.0,
+            "distractor_hit_rate": 0.0
+          },
+          "question_paraphrase": {
+            "n_tested": 7077,
+            "gold_hit": 9,
+            "gold_hit_rate": 0.001271725307333616,
+            "distractor_hit_rate": 0.0002222716159146477
+          }
+        },
+        "flagged": [
+          {
+            "uid": "kazbench_kk::001210",
+            "field": "relevant_noise",
+            "gold": "Баласағұн."
+          },
+          {
+            "uid": "kazbench_kk::001210",
+            "field": "question_paraphrase",
+            "gold": "Баласағұн."
+          },
+          {
+            "uid": "kazbench_kk::001530",
+            "field": "question_paraphrase",
+            "gold": "Қорқыт ата"
+          },
+          {
+            "uid": "kazbench_kk::001623",
+            "field": "question_paraphrase",
+            "gold": "Абылай хан"
+          },
+          {
+            "uid": "kazbench_kk::002492",
+            "field": "relevant_noise",
+            "gold": "«Сарыарқа»"
+          },
+          {
+            "uid": "kazbench_kk::003007",
+            "field": "question_paraphrase",
+            "gold": "Қарақұмық жармасы"
+          },
+          {
+            "uid": "kazbench_kk::003441",
+            "field": "question_paraphrase",
+            "gold": "Кадеттер мен жасөспірімдер"
+          },
+          {
+            "uid": "kazbench_kk::003573",
+            "field": "question_paraphrase",
+            "gold": "«Қара жорға»"
+          },
+          {
+            "uid": "kazbench_kk::004794",
+            "field": "relevant_noise",
+            "gold": "Туған жер"
+          },
+          {
+            "uid": "kazbench_kk::005212",
+            "field": "relevant_noise",
+            "gold": "«Қазақ әдебиеті»"
+          },
+          {
+            "uid": "kazbench_kk::005259",
+            "field": "relevant_noise",
+            "gold": "Баласағұн."
+          },
+          {
+            "uid": "kazbench_kk::005465",
+            "field": "question_paraphrase",
+            "gold": "Шойын және болат өндірісі."
+          },
+          {
+            "uid": "kazbench_kk::006877",
+            "field": "question_paraphrase",
+            "gold": "Балуанияз"
+          },
+          {
+            "uid": "kazbench_kk::006998",
+            "field": "relevant_noise",
+            "gold": "Қарағанды"
+          },
+          {
+            "uid": "kazbench_kk::006998",
+            "field": "question_paraphrase",
+            "gold": "Қарағанды"
+          }
+        ],
+        "n_flagged": 15
+      },
+      "noise_lengths": {
+        "relevant_noise": {
+          "n": 7077,
+          "chars_mean": 294.5,
+          "chars_median": 292,
+          "chars_p05": 233,
+          "chars_p95": 362,
+          "words_mean": 35.8
+        },
+        "irrelevant_noise": {
+          "n": 7077,
+          "chars_mean": 256.7,
+          "chars_median": 256,
+          "chars_p05": 203,
+          "chars_p95": 312,
+          "words_mean": 31.9
+        },
+        "question_paraphrase": {
+          "n": 7077,
+          "chars_mean": 90.9,
+          "chars_median": 89,
+          "chars_p05": 52,
+          "chars_p95": 139,
+          "words_mean": 11.3
+        }
+      },
+      "option_integrity": {
+        "n_checked": 17440,
+        "n_option_text_mutated": 0,
+        "examples_mutated": [],
+        "n_bad_permutation": 0,
+        "examples_bad_permutation": []
+      },
+      "p1_options_mutated": 0,
+      "n_with_option_e": 0,
+      "split_note": "repository names the split `train`; the accompanying paper describes it as the test set. Treated as the evaluation set (meta.split_source='train', meta.split_role='test_per_paper'). No contamination analysis is performed on this basis.",
+      "sample_index": {
+        "n_available": 7077,
+        "n_target": 2000,
+        "n_sampled": 2000,
+        "sampling_applied": true,
+        "stratify_key": [
+          "category"
+        ],
+        "seed": 20260815
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+# Auto-generated 2026-08-23 from the model card in
+#   /path/to/models/qwen3.8-27b/README.md
+# Sampling values below are the card's own recommendation for THIS mode.
+# Omit a key (delete the line) to let the server's generation_config decide;
+# a key that is absent here is absent from the request body entirely.
+
+config_id: qwen3.8-27b-nothink
+family: qwen
+model_name: qwen3.8-27b          # must equal --served-model-name
+base_url: "http://localhost:8000/v1"
+api_key: EMPTY
+
+# analysis metadata -- recorded on every result row, not used at inference
+params_total_b: 27.0
+params_active_b: 27.0
+is_moe: false
+kazakh_specialized: false
+reasoning_regime: "off"
+
+chat_template_kwargs:
+  enable_thinking: false
+
+sampling:
+  temperature: 0.7
+  top_p: 0.8
+  top_k: 20
+  min_p: 0.0
+  presence_penalty: 1.5
+  repetition_penalty: 1.0
+  max_tokens: 32768
+
+seed_base: 1234
+max_concurrency: 32
+capture_logprobs: false
+endpoint_kind: vllm
+notes: >-
+  card: instruct (non-thinking) mode. Serve with --reasoning-parser qwen3.

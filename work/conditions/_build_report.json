@@ -1,0 +1,341 @@
+{
+  "prompt_version": "v1",
+  "prompt_sha256": "dbfef9729600dbd3277b2839a51fa736a7fb7ad2e525108bc92924aff6e323e6",
+  "shuffle_seed": 20260815,
+  "tokenizer": null,
+  "max_model_len": 32768,
+  "cells": {
+    "kazbench_kk__B0": {
+      "path": "work/conditions/kazbench_kk__B0.jsonl",
+      "n_items": 2000,
+      "n_rows": 2000,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 326,
+      "prompt_tokens_p99": 274,
+      "prompt_tokens_median": 190,
+      "token_counts_estimated": true
+    },
+    "kazbench_kk__N1": {
+      "path": "work/conditions/kazbench_kk__N1.jsonl",
+      "n_items": 2000,
+      "n_rows": 2000,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 403,
+      "prompt_tokens_p99": 368,
+      "prompt_tokens_median": 277,
+      "token_counts_estimated": true
+    },
+    "kazbench_kk__N2": {
+      "path": "work/conditions/kazbench_kk__N2.jsonl",
+      "n_items": 2000,
+      "n_rows": 2000,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 403,
+      "prompt_tokens_p99": 368,
+      "prompt_tokens_median": 277,
+      "token_counts_estimated": true
+    },
+    "kazbench_kk__N3": {
+      "path": "work/conditions/kazbench_kk__N3.jsonl",
+      "n_items": 2000,
+      "n_rows": 2000,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 424,
+      "prompt_tokens_p99": 381,
+      "prompt_tokens_median": 290,
+      "token_counts_estimated": true
+    },
+    "kazbench_kk__N4": {
+      "path": "work/conditions/kazbench_kk__N4.jsonl",
+      "n_items": 2000,
+      "n_rows": 2000,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 424,
+      "prompt_tokens_p99": 381,
+      "prompt_tokens_median": 290,
+      "token_counts_estimated": true
+    },
+    "kazbench_kk__I1": {
+      "path": "work/conditions/kazbench_kk__I1.jsonl",
+      "n_items": 2000,
+      "n_rows": 2000,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 320,
+      "prompt_tokens_p99": 268,
+      "prompt_tokens_median": 184,
+      "token_counts_estimated": true
+    },
+    "kazbench_kk__O1": {
+      "path": "work/conditions/kazbench_kk__O1.jsonl",
+      "n_items": 2000,
+      "n_rows": 2000,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 326,
+      "prompt_tokens_p99": 274,
+      "prompt_tokens_median": 190,
+      "token_counts_estimated": true
+    },
+    "kazbench_kk__P1": {
+      "path": "work/conditions/kazbench_kk__P1.jsonl",
+      "n_items": 2000,
+      "n_rows": 2000,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 324,
+      "prompt_tokens_p99": 281,
+      "prompt_tokens_median": 196,
+      "token_counts_estimated": true
+    },
+    "kazbench_kk__O1C": {
+      "path": "work/conditions/kazbench_kk__O1C.jsonl",
+      "n_items": 210,
+      "n_rows": 840,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 302,
+      "prompt_tokens_p99": 288,
+      "prompt_tokens_median": 192,
+      "token_counts_estimated": true
+    },
+    "kazbench_kk__NQR": {
+      "path": "work/conditions/kazbench_kk__NQR.jsonl",
+      "n_items": 300,
+      "n_rows": 300,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 376,
+      "prompt_tokens_p99": 353,
+      "prompt_tokens_median": 264,
+      "token_counts_estimated": true
+    },
+    "kazbench_kk__NQI": {
+      "path": "work/conditions/kazbench_kk__NQI.jsonl",
+      "n_items": 300,
+      "n_rows": 300,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 363,
+      "prompt_tokens_p99": 343,
+      "prompt_tokens_median": 254,
+      "token_counts_estimated": true
+    },
+    "kazculture__B0": {
+      "path": "work/conditions/kazculture__B0.jsonl",
+      "n_items": 1324,
+      "n_rows": 1324,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 224,
+      "prompt_tokens_p99": 208,
+      "prompt_tokens_median": 173,
+      "token_counts_estimated": true
+    },
+    "kazculture__N1": {
+      "path": "work/conditions/kazculture__N1.jsonl",
+      "n_items": 1324,
+      "n_rows": 1324,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 306,
+      "prompt_tokens_p99": 298,
+      "prompt_tokens_median": 256,
+      "token_counts_estimated": true
+    },
+    "kazculture__N2": {
+      "path": "work/conditions/kazculture__N2.jsonl",
+      "n_items": 1324,
+      "n_rows": 1324,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 306,
+      "prompt_tokens_p99": 298,
+      "prompt_tokens_median": 256,
+      "token_counts_estimated": true
+    },
+    "kazculture__N3": {
+      "path": "work/conditions/kazculture__N3.jsonl",
+      "n_items": 1324,
+      "n_rows": 1324,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 339,
+      "prompt_tokens_p99": 307,
+      "prompt_tokens_median": 264,
+      "token_counts_estimated": true
+    },
+    "kazculture__N4": {
+      "path": "work/conditions/kazculture__N4.jsonl",
+      "n_items": 1324,
+      "n_rows": 1324,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 339,
+      "prompt_tokens_p99": 307,
+      "prompt_tokens_median": 264,
+      "token_counts_estimated": true
+    },
+    "kazculture__I1": {
+      "path": "work/conditions/kazculture__I1.jsonl",
+      "n_items": 1324,
+      "n_rows": 1324,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 218,
+      "prompt_tokens_p99": 202,
+      "prompt_tokens_median": 167,
+      "token_counts_estimated": true
+    },
+    "kazculture__O1": {
+      "path": "work/conditions/kazculture__O1.jsonl",
+      "n_items": 1324,
+      "n_rows": 1324,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 224,
+      "prompt_tokens_p99": 208,
+      "prompt_tokens_median": 173,
+      "token_counts_estimated": true
+    },
+    "kazculture__P1": {
+      "path": "work/conditions/kazculture__P1.jsonl",
+      "n_items": 1324,
+      "n_rows": 1324,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 233,
+      "prompt_tokens_p99": 215,
+      "prompt_tokens_median": 181,
+      "token_counts_estimated": true
+    },
+    "kazculture__O1C": {
+      "path": "work/conditions/kazculture__O1C.jsonl",
+      "n_items": 139,
+      "n_rows": 556,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 212,
+      "prompt_tokens_p99": 207,
+      "prompt_tokens_median": 173,
+      "token_counts_estimated": true
+    },
+    "kazculture__NQR": {
+      "path": "work/conditions/kazculture__NQR.jsonl",
+      "n_items": 300,
+      "n_rows": 300,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 290,
+      "prompt_tokens_p99": 286,
+      "prompt_tokens_median": 248,
+      "token_counts_estimated": true
+    },
+    "kazculture__NQI": {
+      "path": "work/conditions/kazculture__NQI.jsonl",
+      "n_items": 300,
+      "n_rows": 300,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 278,
+      "prompt_tokens_p99": 277,
+      "prompt_tokens_median": 239,
+      "token_counts_estimated": true
+    },
+    "kazmmlu__B0": {
+      "path": "work/conditions/kazmmlu__B0.jsonl",
+      "n_items": 2000,
+      "n_rows": 2000,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 691,
+      "prompt_tokens_p99": 269,
+      "prompt_tokens_median": 178,
+      "token_counts_estimated": true
+    },
+    "kazmmlu__N1": {
+      "path": "work/conditions/kazmmlu__N1.jsonl",
+      "n_items": 2000,
+      "n_rows": 2000,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 787,
+      "prompt_tokens_p99": 352,
+      "prompt_tokens_median": 264,
+      "token_counts_estimated": true
+    },
+    "kazmmlu__N2": {
+      "path": "work/conditions/kazmmlu__N2.jsonl",
+      "n_items": 2000,
+      "n_rows": 2000,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 787,
+      "prompt_tokens_p99": 352,
+      "prompt_tokens_median": 264,
+      "token_counts_estimated": true
+    },
+    "kazmmlu__N3": {
+      "path": "work/conditions/kazmmlu__N3.jsonl",
+      "n_items": 2000,
+      "n_rows": 2000,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 796,
+      "prompt_tokens_p99": 367,
+      "prompt_tokens_median": 278,
+      "token_counts_estimated": true
+    },
+    "kazmmlu__N4": {
+      "path": "work/conditions/kazmmlu__N4.jsonl",
+      "n_items": 2000,
+      "n_rows": 2000,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 796,
+      "prompt_tokens_p99": 367,
+      "prompt_tokens_median": 278,
+      "token_counts_estimated": true
+    },
+    "kazmmlu__I1": {
+      "path": "work/conditions/kazmmlu__I1.jsonl",
+      "n_items": 2000,
+      "n_rows": 2000,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 685,
+      "prompt_tokens_p99": 263,
+      "prompt_tokens_median": 172,
+      "token_counts_estimated": true
+    },
+    "kazmmlu__O1": {
+      "path": "work/conditions/kazmmlu__O1.jsonl",
+      "n_items": 2000,
+      "n_rows": 2000,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 691,
+      "prompt_tokens_p99": 269,
+      "prompt_tokens_median": 178,
+      "token_counts_estimated": true
+    },
+    "kazmmlu__P1": {
+      "path": "work/conditions/kazmmlu__P1.jsonl",
+      "n_items": 2000,
+      "n_rows": 2000,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 685,
+      "prompt_tokens_p99": 267,
+      "prompt_tokens_median": 186,
+      "token_counts_estimated": true
+    },
+    "kazmmlu__O1C": {
+      "path": "work/conditions/kazmmlu__O1C.jsonl",
+      "n_items": 151,
+      "n_rows": 604,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 471,
+      "prompt_tokens_p99": 253,
+      "prompt_tokens_median": 178,
+      "token_counts_estimated": true
+    },
+    "kazmmlu__NQR": {
+      "path": "work/conditions/kazmmlu__NQR.jsonl",
+      "n_items": 300,
+      "n_rows": 300,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 374,
+      "prompt_tokens_p99": 325,
+      "prompt_tokens_median": 256,
+      "token_counts_estimated": true
+    },
+    "kazmmlu__NQI": {
+      "path": "work/conditions/kazmmlu__NQI.jsonl",
+      "n_items": 300,
+      "n_rows": 300,
+      "n_skipped_missing_field": 0,
+      "prompt_tokens_max": 372,
+      "prompt_tokens_p99": 314,
+      "prompt_tokens_median": 241,
+      "token_counts_estimated": true
+    }
+  },
+  "n_length_warnings": 0,
+  "skipped_missing_field": {}
+}

@@ -1,0 +1,31 @@
+# Auto-generated 2026-08-23 from the model card in
+#   /path/to/models/gpt-oss-20b/README.md
+# Sampling values below are the card's own recommendation for THIS mode.
+# Omit a key (delete the line) to let the server's generation_config decide;
+# a key that is absent here is absent from the request body entirely.
+
+config_id: gpt-oss-20b-low
+family: gpt-oss
+model_name: gpt-oss-20b          # must equal --served-model-name
+base_url: "http://localhost:8000/v1"
+api_key: EMPTY
+
+# analysis metadata -- recorded on every result row, not used at inference
+params_total_b: 21.0
+params_active_b: 3.6
+is_moe: true
+kazakh_specialized: false
+reasoning_regime: "low"
+
+# reasoning level is set through the system prompt for this family
+system_prompt: "Reasoning: low"
+
+sampling:
+  max_tokens: 32768
+
+seed_base: 1234
+max_concurrency: 48
+capture_logprobs: false
+endpoint_kind: vllm
+notes: >-
+  card gives no sampling recommendation and generation_config sets no temperature/top_p/top_k, so they are omitted and the server decides. Effort is set in the system prompt. Serve with the gpt-oss reasoning parser.

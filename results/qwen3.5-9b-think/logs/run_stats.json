@@ -1,0 +1,10 @@
+{
+  "stats": {
+    "n": 2000,
+    "format_valid": 1963,
+    "correct": 1311,
+    "completion_tokens": 4801475,
+    "parse_failed": 1
+  },
+  "warnings": []
+}

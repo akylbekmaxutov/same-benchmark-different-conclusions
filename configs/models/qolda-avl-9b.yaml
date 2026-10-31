@@ -1,0 +1,33 @@
+# Auto-generated 2026-08-23 from the model card in
+#   /path/to/models/qolda-avl-9b/README.md
+# Sampling values below are the card's own recommendation for THIS mode.
+# Omit a key (delete the line) to let the server's generation_config decide;
+# a key that is absent here is absent from the request body entirely.
+
+config_id: qolda-avl-9b
+family: qolda
+model_name: qolda-avl-9b          # must equal --served-model-name
+base_url: "http://localhost:8000/v1"
+api_key: EMPTY
+
+# analysis metadata -- recorded on every result row, not used at inference
+params_total_b: 9.0
+params_active_b: 9.0
+is_moe: false
+kazakh_specialized: true
+reasoning_regime: "on"
+
+sampling:
+  temperature: 1.0
+  top_p: 0.95
+  top_k: 20
+  presence_penalty: 1.5
+  repetition_penalty: 1.0
+  max_tokens: 32768
+
+seed_base: 1234
+max_concurrency: 48
+capture_logprobs: false
+endpoint_kind: vllm
+notes: >-
+  Built on Qwen3-VL-Thinking; the chat template has no enable_thinking switch, so this is a single thinking-only configuration. Needs --trust-remote-code and the vLLM-Qolda-AVL fork. The card's serve example uses --max-model-len 16384: raise it above 33k or lower max_tokens, or every request 400s on context length.

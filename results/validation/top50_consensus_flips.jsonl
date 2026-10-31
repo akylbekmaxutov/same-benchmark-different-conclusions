@@ -1,0 +1,50 @@
+{"parent_uid":"kazmmlu::009475","dataset":"kazmmlu","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"World History (High School in kaz)","gold_answer_original":"E"}
+{"parent_uid":"kazculture::000093","dataset":"kazculture","condition":"NQR","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Clothing","gold_answer_original":"B"}
+{"parent_uid":"kazmmlu::007189","dataset":"kazmmlu","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Math (High School in kaz)","gold_answer_original":"D"}
+{"parent_uid":"kazmmlu::002718","dataset":"kazmmlu","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Geography (High School in kaz)","gold_answer_original":"A"}
+{"parent_uid":"kazculture::000103","dataset":"kazculture","condition":"NQR","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Clothing","gold_answer_original":"D"}
+{"parent_uid":"kazmmlu::007231","dataset":"kazmmlu","condition":"NQR","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Math (High School in kaz)","gold_answer_original":"A"}
+{"parent_uid":"kazmmlu::007231","dataset":"kazmmlu","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Math (High School in kaz)","gold_answer_original":"A"}
+{"parent_uid":"kazculture::000116","dataset":"kazculture","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Household","gold_answer_original":"B"}
+{"parent_uid":"kazmmlu::006504","dataset":"kazmmlu","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Law (High School in kaz)","gold_answer_original":"B"}
+{"parent_uid":"kazbench_kk::001822","dataset":"kazbench_kk","condition":"NQR","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Traditions","gold_answer_original":"C"}
+{"parent_uid":"kazbench_kk::005703","dataset":"kazbench_kk","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Agriculture and Animal Husbandry","gold_answer_original":"C"}
+{"parent_uid":"kazbench_kk::001763","dataset":"kazbench_kk","condition":"NQR","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"History","gold_answer_original":"D"}
+{"parent_uid":"kazbench_kk::006670","dataset":"kazbench_kk","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Agriculture and Animal Husbandry","gold_answer_original":"C"}
+{"parent_uid":"kazmmlu::003440","dataset":"kazmmlu","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Kazakh History (High School in kaz)","gold_answer_original":"A"}
+{"parent_uid":"kazculture::000636","dataset":"kazculture","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Clothing","gold_answer_original":"A"}
+{"parent_uid":"kazbench_kk::005628","dataset":"kazbench_kk","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Agriculture and Animal Husbandry","gold_answer_original":"C"}
+{"parent_uid":"kazmmlu::006461","dataset":"kazmmlu","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Law (High School in kaz)","gold_answer_original":"B"}
+{"parent_uid":"kazculture::000614","dataset":"kazculture","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Household","gold_answer_original":"B"}
+{"parent_uid":"kazculture::000103","dataset":"kazculture","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Clothing","gold_answer_original":"D"}
+{"parent_uid":"kazculture::000601","dataset":"kazculture","condition":"NQR","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Household","gold_answer_original":"C"}
+{"parent_uid":"kazmmlu::008009","dataset":"kazmmlu","condition":"NQR","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Physics (High School in kaz)","gold_answer_original":"A"}
+{"parent_uid":"kazmmlu::008009","dataset":"kazmmlu","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Physics (High School in kaz)","gold_answer_original":"A"}
+{"parent_uid":"kazmmlu::008125","dataset":"kazmmlu","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Physics (High School in kaz)","gold_answer_original":"D"}
+{"parent_uid":"kazbench_kk::005609","dataset":"kazbench_kk","condition":"NQR","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Architecture and Housing Elements","gold_answer_original":"B"}
+{"parent_uid":"kazbench_kk::003914","dataset":"kazbench_kk","condition":"NQR","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Cinema","gold_answer_original":"B"}
+{"parent_uid":"kazbench_kk::003914","dataset":"kazbench_kk","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Cinema","gold_answer_original":"B"}
+{"parent_uid":"kazbench_kk::001763","dataset":"kazbench_kk","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"History","gold_answer_original":"D"}
+{"parent_uid":"kazbench_kk::004874","dataset":"kazbench_kk","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Song Lyrics","gold_answer_original":"D"}
+{"parent_uid":"kazbench_kk::004866","dataset":"kazbench_kk","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Song Lyrics","gold_answer_original":"A"}
+{"parent_uid":"kazculture::001132","dataset":"kazculture","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Cuisine","gold_answer_original":"A"}
+{"parent_uid":"kazmmlu::006534","dataset":"kazmmlu","condition":"NQR","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Law (High School in kaz)","gold_answer_original":"D"}
+{"parent_uid":"kazculture::001132","dataset":"kazculture","condition":"NQR","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Cuisine","gold_answer_original":"A"}
+{"parent_uid":"kazbench_kk::006370","dataset":"kazbench_kk","condition":"NQR","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Literature: Poetry and Prose","gold_answer_original":"B"}
+{"parent_uid":"kazculture::000171","dataset":"kazculture","condition":"NQR","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Household","gold_answer_original":"D"}
+{"parent_uid":"kazmmlu::007942","dataset":"kazmmlu","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Physics (High School in kaz)","gold_answer_original":"D"}
+{"parent_uid":"kazculture::000549","dataset":"kazculture","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Musical instruments","gold_answer_original":"B"}
+{"parent_uid":"kazmmlu::002823","dataset":"kazmmlu","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Geography (High School in kaz)","gold_answer_original":"D"}
+{"parent_uid":"kazmmlu::004334","dataset":"kazmmlu","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Kazakh Language (High School in kaz)","gold_answer_original":"B"}
+{"parent_uid":"kazbench_kk::003231","dataset":"kazbench_kk","condition":"NQR","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Humor","gold_answer_original":"B"}
+{"parent_uid":"kazculture::000159","dataset":"kazculture","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Household","gold_answer_original":"A"}
+{"parent_uid":"kazculture::000093","dataset":"kazculture","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Clothing","gold_answer_original":"B"}
+{"parent_uid":"kazmmlu::004876","dataset":"kazmmlu","condition":"NQR","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Kazakh Language (High School in kaz)","gold_answer_original":"D"}
+{"parent_uid":"kazmmlu::004876","dataset":"kazmmlu","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Kazakh Language (High School in kaz)","gold_answer_original":"D"}
+{"parent_uid":"kazculture::000138","dataset":"kazculture","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Cuisine","gold_answer_original":"D"}
+{"parent_uid":"kazmmlu::002807","dataset":"kazmmlu","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Geography (High School in kaz)","gold_answer_original":"D"}
+{"parent_uid":"kazculture::000601","dataset":"kazculture","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Household","gold_answer_original":"C"}
+{"parent_uid":"kazbench_kk::004946","dataset":"kazbench_kk","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Literature: Poetry and Prose","gold_answer_original":"B"}
+{"parent_uid":"kazculture::000572","dataset":"kazculture","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Household","gold_answer_original":"B"}
+{"parent_uid":"kazbench_kk::003461","dataset":"kazbench_kk","condition":"NQI","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"Cuisine and Beverages","gold_answer_original":"B"}
+{"parent_uid":"kazbench_kk::000815","dataset":"kazbench_kk","condition":"NQR","consensus_ci_fraction":1.0,"n_configs":3,"n_ci":3,"category":"History","gold_answer_original":"D"}

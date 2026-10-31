@@ -1,0 +1,334 @@
+{
+  "corpus": {
+    "kazmmlu": {
+      "source_repo": "MBZUAI/KazMMLU",
+      "split_used": "test"
+    },
+    "kazculture": {
+      "source_repo": "issai/KazCulture",
+      "split_used": "test"
+    },
+    "kazbench_kk": {
+      "source_repo": "kz-transformers/kk-socio-cultural-bench-mc",
+      "split_used": "train"
+    }
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "gemini_model": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.0",
+      "n_batch_jobs": 3,
+      "requests_per_dataset": {
+        "kazmmlu": {
+          "n_requests": 9870,
+          "job_state": "JOB_STATE_SUCCEEDED"
+        },
+        "kazculture": {
+          "n_requests": 1334,
+          "job_state": "JOB_STATE_SUCCEEDED"
+        },
+        "kazbench_kk": {
+          "n_requests": 7111,
+          "job_state": "JOB_STATE_SUCCEEDED"
+        }
+      },
+      "total_requests": 18315,
+      "generation_config": {
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "max_output_tokens": 1024,
+        "response_mime_type": "application/json",
+        "response_schema": {
+          "type": "OBJECT",
+          "properties": {
+            "relevant_noise": {
+              "type": "STRING"
+            },
+            "irrelevant_noise": {
+              "type": "STRING"
+            },
+            "question_paraphrase": {
+              "type": "STRING"
+            }
+          },
+          "required": [
+            "relevant_noise",
+            "irrelevant_noise",
+            "question_paraphrase"
+          ],
+          "propertyOrdering": [
+            "relevant_noise",
+            "irrelevant_noise",
+            "question_paraphrase"
+          ]
+        }
+      },
+      "safety_settings": [],
+      "system_instruction_file": "reports/prompts/r1_system.txt",
+      "user_prompt_example_file": "reports/prompts/r1_user_example.txt"
+    },
+    {
+      "round": 2,
+      "gemini_model": "gemini-3.5-flash-lite",
+      "prompt_version": "v1.1",
+      "n_batch_jobs": 3,
+      "requests_per_dataset": {
+        "kazmmlu": {
+          "n_requests": 537,
+          "job_state": "JOB_STATE_SUCCEEDED"
+        },
+        "kazculture": {
+          "n_requests": 23,
+          "job_state": "JOB_STATE_SUCCEEDED"
+        },
+        "kazbench_kk": {
+          "n_requests": 65,
+          "job_state": "JOB_STATE_SUCCEEDED"
+        }
+      },
+      "total_requests": 625,
+      "generation_config": {
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "max_output_tokens": 2048,
+        "response_mime_type": "application/json",
+        "response_schema": {
+          "type": "OBJECT",
+          "properties": {
+            "relevant_noise": {
+              "type": "STRING"
+            },
+            "irrelevant_noise": {
+              "type": "STRING"
+            },
+            "question_paraphrase": {
+              "type": "STRING"
+            }
+          },
+          "required": [
+            "relevant_noise",
+            "irrelevant_noise",
+            "question_paraphrase"
+          ],
+          "propertyOrdering": [
+            "relevant_noise",
+            "irrelevant_noise",
+            "question_paraphrase"
+          ]
+        }
+      },
+      "safety_settings": [
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "threshold": "BLOCK_NONE"
+        },
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "threshold": "BLOCK_NONE"
+        },
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "threshold": "BLOCK_NONE"
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "threshold": "BLOCK_NONE"
+        }
+      ],
+      "system_instruction_file": "reports/prompts/r2_system.txt",
+      "user_prompt_example_file": "reports/prompts/r2_user_example.txt"
+    }
+  ],
+  "acceptance_by_round": {
+    "r1": {
+      "kazmmlu": {
+        "n_items": 9870,
+        "n_rejected": 537,
+        "n_accepted": 9333,
+        "n_with_warnings": 3872,
+        "acceptance_rate": 0.9456,
+        "rejection_reasons": {
+          "question_paraphrase: contains an option-letter marker": 216,
+          "question_paraphrase: numbers dropped": 121,
+          "question_paraphrase: negation lost": 118,
+          "relevant_noise: empty": 52,
+          "irrelevant_noise: empty": 52,
+          "question_paraphrase: empty": 52,
+          "question_paraphrase: not Cyrillic/Kazakh": 47,
+          "question_paraphrase: reproduces option text": 42,
+          "generation error: no JSON object found": 35,
+          "relevant_noise: reproduces option text": 9,
+          "generation error: invalid JSON: Unterminated string starting at: l": 9,
+          "relevant_noise: not Cyrillic/Kazakh": 5,
+          "generation error: empty generation: {\"promptFeedback\": {\"blockReas": 5,
+          "irrelevant_noise: not Cyrillic/Kazakh": 4,
+          "generation error: empty generation: {\"candidates\":": 3,
+          "question_paraphrase: leakage phrase 'дұрыс нұсқа'": 2,
+          "question_paraphrase: leakage phrase 'дұрыс жауап'": 1,
+          "question_paraphrase: leakage phrase 'жауап:'": 1
+        }
+      },
+      "kazculture": {
+        "n_items": 1334,
+        "n_rejected": 23,
+        "n_accepted": 1311,
+        "n_with_warnings": 585,
+        "acceptance_rate": 0.9828,
+        "rejection_reasons": {
+          "question_paraphrase: negation lost": 20,
+          "question_paraphrase: reproduces option text": 1,
+          "question_paraphrase: identical to the original question": 1,
+          "generation error: empty generation: {\"candidates\":": 1,
+          "relevant_noise: empty": 1,
+          "irrelevant_noise: empty": 1,
+          "question_paraphrase: empty": 1
+        }
+      },
+      "kazbench_kk": {
+        "n_items": 7111,
+        "n_rejected": 65,
+        "n_accepted": 7046,
+        "n_with_warnings": 1902,
+        "acceptance_rate": 0.9909,
+        "rejection_reasons": {
+          "question_paraphrase: negation lost": 46,
+          "question_paraphrase: numbers dropped": 8,
+          "relevant_noise: not Cyrillic/Kazakh": 6,
+          "irrelevant_noise: not Cyrillic/Kazakh": 6,
+          "question_paraphrase: not Cyrillic/Kazakh": 5,
+          "question_paraphrase: reproduces option text": 3,
+          "relevant_noise: reproduces option text": 2,
+          "generation error: empty generation: {\"promptFeedback\": {\"blockReas": 2,
+          "relevant_noise: empty": 2,
+          "irrelevant_noise: empty": 2,
+          "question_paraphrase: empty": 2
+        }
+      }
+    },
+    "r2": {
+      "kazmmlu": {
+        "n_items": 9870,
+        "n_rejected": 144,
+        "n_accepted": 9726,
+        "n_with_warnings": 3776,
+        "acceptance_rate": 0.9854,
+        "rejection_reasons": {
+          "question_paraphrase: negation lost": 53,
+          "question_paraphrase: not Cyrillic/Kazakh": 41,
+          "question_paraphrase: numbers dropped": 23,
+          "relevant_noise: empty": 14,
+          "irrelevant_noise: empty": 14,
+          "question_paraphrase: empty": 14,
+          "question_paraphrase: contains an option-letter marker": 11,
+          "generation error: no JSON object found": 8,
+          "generation error: empty generation: {\"promptFeedback\": {\"blockReas": 5,
+          "relevant_noise: reproduces option text": 2,
+          "relevant_noise: contains an option-letter marker": 2,
+          "relevant_noise: not Cyrillic/Kazakh": 1,
+          "irrelevant_noise: not Cyrillic/Kazakh": 1,
+          "generation error: invalid JSON: Unterminated string starting at: l": 1,
+          "question_paraphrase: leakage phrase 'дұрыс жауап'": 1,
+          "question_paraphrase: leakage phrase 'жауап:'": 1
+        }
+      },
+      "kazculture": {
+        "n_items": 1334,
+        "n_rejected": 10,
+        "n_accepted": 1324,
+        "n_with_warnings": 583,
+        "acceptance_rate": 0.9925,
+        "rejection_reasons": {
+          "question_paraphrase: negation lost": 10
+        }
+      },
+      "kazbench_kk": {
+        "n_items": 7111,
+        "n_rejected": 34,
+        "n_accepted": 7077,
+        "n_with_warnings": 1894,
+        "acceptance_rate": 0.9952,
+        "rejection_reasons": {
+          "question_paraphrase: negation lost": 26,
+          "generation error: empty generation: {\"promptFeedback\": {\"blockReas": 2,
+          "relevant_noise: empty": 2,
+          "irrelevant_noise: empty": 2,
+          "question_paraphrase: empty": 2,
+          "question_paraphrase: numbers dropped": 2,
+          "relevant_noise: reproduces option text": 1,
+          "relevant_noise: not Cyrillic/Kazakh": 1,
+          "irrelevant_noise: not Cyrillic/Kazakh": 1,
+          "question_paraphrase: not Cyrillic/Kazakh": 1,
+          "question_paraphrase: reproduces option text": 1,
+          "question_paraphrase: identical to the original question": 1
+        }
+      }
+    }
+  },
+  "final": {
+    "per_dataset": {
+      "kazmmlu": {
+        "n_items": 9870,
+        "n_rejected": 144,
+        "n_accepted": 9726,
+        "n_with_warnings": 3776,
+        "acceptance_rate": 0.9854,
+        "rejection_reasons": {
+          "question_paraphrase: negation lost": 53,
+          "question_paraphrase: not Cyrillic/Kazakh": 41,
+          "question_paraphrase: numbers dropped": 23,
+          "relevant_noise: empty": 14,
+          "irrelevant_noise: empty": 14,
+          "question_paraphrase: empty": 14,
+          "question_paraphrase: contains an option-letter marker": 11,
+          "generation error: no JSON object found": 8,
+          "generation error: empty generation: {\"promptFeedback\": {\"blockReas": 5,
+          "relevant_noise: reproduces option text": 2,
+          "relevant_noise: contains an option-letter marker": 2,
+          "relevant_noise: not Cyrillic/Kazakh": 1,
+          "irrelevant_noise: not Cyrillic/Kazakh": 1,
+          "generation error: invalid JSON: Unterminated string starting at: l": 1,
+          "question_paraphrase: leakage phrase 'дұрыс жауап'": 1,
+          "question_paraphrase: leakage phrase 'жауап:'": 1
+        }
+      },
+      "kazculture": {
+        "n_items": 1334,
+        "n_rejected": 10,
+        "n_accepted": 1324,
+        "n_with_warnings": 583,
+        "acceptance_rate": 0.9925,
+        "rejection_reasons": {
+          "question_paraphrase: negation lost": 10
+        }
+      },
+      "kazbench_kk": {
+        "n_items": 7111,
+        "n_rejected": 34,
+        "n_accepted": 7077,
+        "n_with_warnings": 1894,
+        "acceptance_rate": 0.9952,
+        "rejection_reasons": {
+          "question_paraphrase: negation lost": 26,
+          "generation error: empty generation: {\"promptFeedback\": {\"blockReas": 2,
+          "relevant_noise: empty": 2,
+          "irrelevant_noise: empty": 2,
+          "question_paraphrase: empty": 2,
+          "question_paraphrase: numbers dropped": 2,
+          "relevant_noise: reproduces option text": 1,
+          "relevant_noise: not Cyrillic/Kazakh": 1,
+          "irrelevant_noise: not Cyrillic/Kazakh": 1,
+          "question_paraphrase: not Cyrillic/Kazakh": 1,
+          "question_paraphrase: reproduces option text": 1,
+          "question_paraphrase: identical to the original question": 1
+        }
+      }
+    },
+    "overall": {
+      "n_items": 18315,
+      "n_accepted": 18127,
+      "n_rejected": 188,
+      "acceptance_rate": 0.9897
+    }
+  }
+}

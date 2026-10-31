@@ -1,0 +1,236 @@
+{
+  "created_utc": "2026-08-23T15:18:15Z",
+  "config": {
+    "config_id": "muse-glimmer-30b-high",
+    "model_name": "muse-glimmer",
+    "base_url": "http://localhost:8007/v1",
+    "api_key": "EMPTY",
+    "family": "muse-glimmer",
+    "params_total_b": 29.6,
+    "params_active_b": 29.6,
+    "is_moe": false,
+    "kazakh_specialized": false,
+    "reasoning_regime": "high",
+    "system_prompt": "Reasoning strength: high",
+    "chat_template_kwargs": null,
+    "sampling": {
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 64,
+      "max_tokens": 32768
+    },
+    "seed_base": 1234,
+    "max_concurrency": 24,
+    "timeout_s": 600,
+    "max_attempts": 5,
+    "capture_logprobs": false,
+    "structured_output": false,
+    "endpoint_kind": "vllm",
+    "notes": "card wording is 'Reasoning strength: <value>' -- NOT the 'Reasoning: <value>' that gpt-oss uses. Levels: low/medium/high/xhigh."
+  },
+  "config_behavioural": {
+    "config_id": "muse-glimmer-30b-high",
+    "model_name": "muse-glimmer",
+    "sampling": {
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 64,
+      "max_tokens": 32768
+    },
+    "system_prompt": "Reasoning strength: high",
+    "chat_template_kwargs": null,
+    "seed_base": 1234,
+    "structured_output": false,
+    "capture_logprobs": false,
+    "endpoint_kind": "vllm",
+    "family": "muse-glimmer",
+    "params_total_b": 29.6,
+    "params_active_b": 29.6,
+    "is_moe": false,
+    "kazakh_specialized": false,
+    "reasoning_regime": "high"
+  },
+  "request_body_template": {
+    "model": "muse-glimmer",
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_tokens": 32768,
+    "seed": 1234,
+    "extra_body": {
+      "top_k": 64
+    }
+  },
+  "prompt_version": "v1",
+  "prompt_sha256": "dbfef9729600dbd3277b2839a51fa736a7fb7ad2e525108bc92924aff6e323e6",
+  "system_prompt": "Reasoning strength: high",
+  "system_prompt_sha256": "4b2639aa20380228e7e674c304c60bc4081ade850a7e6c4257a71d7310d238ed",
+  "parser_version": "parse/v1",
+  "conditions": [
+    "B0",
+    "I1",
+    "N1",
+    "N2",
+    "N3",
+    "N4",
+    "O1",
+    "O1C",
+    "P1"
+  ],
+  "datasets": [
+    "kazbench_kk",
+    "kazculture",
+    "kazmmlu"
+  ],
+  "repeats": {
+    "B0": 3,
+    "default": 1
+  },
+  "item_counts": {
+    "kazbench_kk__B0": 2000,
+    "kazbench_kk__I1": 2000,
+    "kazbench_kk__N1": 2000,
+    "kazbench_kk__N2": 2000,
+    "kazbench_kk__N3": 2000,
+    "kazbench_kk__N4": 2000,
+    "kazbench_kk__O1": 2000,
+    "kazbench_kk__P1": 2000,
+    "kazculture__B0": 1324,
+    "kazculture__I1": 1324,
+    "kazculture__N1": 1324,
+    "kazculture__N2": 1324,
+    "kazculture__N3": 1324,
+    "kazculture__N4": 1324,
+    "kazculture__O1": 1324,
+    "kazculture__P1": 1324,
+    "kazmmlu__B0": 2000,
+    "kazmmlu__I1": 2000,
+    "kazmmlu__N1": 2000,
+    "kazmmlu__N2": 2000,
+    "kazmmlu__N3": 2000,
+    "kazmmlu__N4": 2000,
+    "kazmmlu__O1": 2000,
+    "kazmmlu__P1": 2000,
+    "kazbench_kk__O1C": 840,
+    "kazculture__O1C": 556,
+    "kazmmlu__O1C": 604
+  },
+  "run_scope": [
+    {
+      "utc": "2026-08-23T15:18:15Z",
+      "conditions": [
+        "B0",
+        "I1",
+        "N1",
+        "N2",
+        "N3",
+        "N4",
+        "O1",
+        "P1"
+      ],
+      "datasets": [
+        "kazbench_kk",
+        "kazculture",
+        "kazmmlu"
+      ],
+      "repeats": {
+        "B0": 3,
+        "default": 1
+      },
+      "item_counts": {
+        "kazbench_kk__B0": 2000,
+        "kazbench_kk__I1": 2000,
+        "kazbench_kk__N1": 2000,
+        "kazbench_kk__N2": 2000,
+        "kazbench_kk__N3": 2000,
+        "kazbench_kk__N4": 2000,
+        "kazbench_kk__O1": 2000,
+        "kazbench_kk__P1": 2000,
+        "kazculture__B0": 1324,
+        "kazculture__I1": 1324,
+        "kazculture__N1": 1324,
+        "kazculture__N2": 1324,
+        "kazculture__N3": 1324,
+        "kazculture__N4": 1324,
+        "kazculture__O1": 1324,
+        "kazculture__P1": 1324,
+        "kazmmlu__B0": 2000,
+        "kazmmlu__I1": 2000,
+        "kazmmlu__N1": 2000,
+        "kazmmlu__N2": 2000,
+        "kazmmlu__N3": 2000,
+        "kazmmlu__N4": 2000,
+        "kazmmlu__O1": 2000,
+        "kazmmlu__P1": 2000
+      }
+    },
+    {
+      "utc": "2026-08-24T00:54:15Z",
+      "conditions": [
+        "O1C"
+      ],
+      "datasets": [
+        "kazbench_kk",
+        "kazculture",
+        "kazmmlu"
+      ],
+      "repeats": {
+        "B0": 3,
+        "default": 1
+      },
+      "item_counts": {
+        "kazbench_kk__O1C": 840,
+        "kazculture__O1C": 556,
+        "kazmmlu__O1C": 604
+      }
+    }
+  ],
+  "seed_base": 1234,
+  "shuffle_seed": 20260815,
+  "sample_index_sha256": "a7b01953ac0c8ac6cfb304d85e95d87d2848ee7d3be67f8c00b1a9f688e2328b",
+  "harness_git_sha": null,
+  "harness_code_sha256": "5cbecf341cfb6cfbd889df455d188d502be0649137d217acd881ddb2ac2d0b50",
+  "python": "3.12.7",
+  "platform": "Linux-5.14.0-362.24.1.el9_3.0.1.x86_64-x86_64-with-glibc2.34",
+  "endpoint_kind": "vllm",
+  "dropped_params": [],
+  "endpoint_probe": {},
+  "seed_honored": true,
+  "server_models": {
+    "data": [
+      {
+        "id": "muse-glimmer",
+        "created": 1787532855,
+        "object": "model",
+        "owned_by": "vllm",
+        "shutdown_date": null,
+        "root": "/path/to/models/muse-glimmer-30b",
+        "parent": null,
+        "max_model_len": 65536,
+        "permission": [
+          {
+            "id": "modelperm-8eefd87eadab24bd",
+            "object": "model_permission",
+            "created": 1787532855,
+            "allow_create_engine": false,
+            "allow_sampling": true,
+            "allow_logprobs": true,
+            "allow_search_indices": false,
+            "allow_view": true,
+            "allow_fine_tuning": false,
+            "organization": "*",
+            "group": null,
+            "is_blocking": false
+          }
+        ]
+      }
+    ],
+    "object": "list"
+  },
+  "vllm_version": null,
+  "structured_output": false,
+  "capture_logprobs": false,
+  "notes": [],
+  "max_tokens_exceptions": [],
+  "manifest_hash": "17fbc589da2405f1adb806b5d20ce8fb773df0f71692163a5764bfadd600b7e6",
+  "updated_utc": "2026-08-24T00:54:15Z"
+}

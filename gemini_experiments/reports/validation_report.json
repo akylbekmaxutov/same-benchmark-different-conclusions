@@ -1,0 +1,81 @@
+{
+  "datasets": {
+    "kazmmlu": {
+      "n_source_items": 9870,
+      "n_generated": 9870,
+      "n_missing_generation": 0,
+      "n_unexpected_ids": 0,
+      "n_regenerated_items": 529,
+      "n_rejected": 144,
+      "n_accepted": 9726,
+      "n_with_warnings": 3776,
+      "acceptance_rate": 0.9854,
+      "error_breakdown": {
+        "question_paraphrase: negation lost": 53,
+        "question_paraphrase: not Cyrillic/Kazakh": 41,
+        "question_paraphrase: numbers dropped": 23,
+        "relevant_noise: empty": 14,
+        "irrelevant_noise: empty": 14,
+        "question_paraphrase: empty": 14,
+        "question_paraphrase: contains an option-letter marker": 11,
+        "generation error: no JSON object found": 8,
+        "generation error: empty generation: {\"promptFeedback\": {\"blockReas": 5,
+        "relevant_noise: reproduces option text": 2,
+        "relevant_noise: contains an option-letter marker": 2,
+        "relevant_noise: not Cyrillic/Kazakh": 1,
+        "irrelevant_noise: not Cyrillic/Kazakh": 1,
+        "generation error: invalid JSON: Unterminated string starting at: l": 1,
+        "question_paraphrase: leakage phrase 'дұрыс жауап'": 1,
+        "question_paraphrase: leakage phrase 'жауап:'": 1
+      },
+      "warning_breakdown": {
+        "question_paraphrase": 4084
+      }
+    },
+    "kazculture": {
+      "n_source_items": 1334,
+      "n_generated": 1334,
+      "n_missing_generation": 0,
+      "n_unexpected_ids": 0,
+      "n_regenerated_items": 23,
+      "n_rejected": 10,
+      "n_accepted": 1324,
+      "n_with_warnings": 583,
+      "acceptance_rate": 0.9925,
+      "error_breakdown": {
+        "question_paraphrase: negation lost": 10
+      },
+      "warning_breakdown": {
+        "question_paraphrase": 602
+      }
+    },
+    "kazbench_kk": {
+      "n_source_items": 7111,
+      "n_generated": 7111,
+      "n_missing_generation": 0,
+      "n_unexpected_ids": 0,
+      "n_regenerated_items": 65,
+      "n_rejected": 34,
+      "n_accepted": 7077,
+      "n_with_warnings": 1894,
+      "acceptance_rate": 0.9952,
+      "error_breakdown": {
+        "question_paraphrase: negation lost": 26,
+        "generation error: empty generation: {\"promptFeedback\": {\"blockReas": 2,
+        "relevant_noise: empty": 2,
+        "irrelevant_noise: empty": 2,
+        "question_paraphrase: empty": 2,
+        "question_paraphrase: numbers dropped": 2,
+        "relevant_noise: reproduces option text": 1,
+        "relevant_noise: not Cyrillic/Kazakh": 1,
+        "irrelevant_noise: not Cyrillic/Kazakh": 1,
+        "question_paraphrase: not Cyrillic/Kazakh": 1,
+        "question_paraphrase: reproduces option text": 1,
+        "question_paraphrase: identical to the original question": 1
+      },
+      "warning_breakdown": {
+        "question_paraphrase": 1918
+      }
+    }
+  }
+}

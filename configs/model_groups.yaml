@@ -1,0 +1,70 @@
+# One entry per SERVED MODEL.  `configs` lists that model's configurations in
+# the order they should be run against a single live endpoint -- nothink before
+# think, low before high -- so one deployment covers every mode of the model.
+#
+# `serve` fields are recorded for the operator; the harness never starts a
+# server. `reasoning_parser` is the vLLM flag the mode needs: without it a
+# thinking model puts its trace in message.content and the run aborts.
+#
+# `min_max_model_len` is what --max-model-len must be AT LEAST for
+# max_tokens: 32768 plus the longest rendered prompt (~800 tokens) to fit.
+# 05_run.py checks this against the server's reported max_model_len before the
+# first request and aborts if it is short.
+
+models_root: /path/to/models
+min_max_model_len: 34816   # 32768 max_tokens + ~800 prompt + headroom
+
+groups:
+  qwen3.5-9b:
+    served_name: qwen3.5-9b
+    reasoning_parser: qwen3
+    configs: [qwen3.5-9b-nothink, qwen3.5-9b-think]
+
+  qwen3.8-27b:
+    served_name: qwen3.8-27b
+    reasoning_parser: qwen3
+    configs: [qwen3.8-27b-nothink, qwen3.8-27b-think]
+
+  qwen3.6-35b-a3b:
+    served_name: qwen3.6-35b-a3b
+    reasoning_parser: qwen3
+    configs: [qwen3.6-35b-a3b-nothink, qwen3.6-35b-a3b-think]
+
+  gemma-4-12b-it:
+    served_name: gemma-4-12b-it
+    reasoning_parser: gemma4
+    configs: [gemma-4-12b-it-nothink, gemma-4-12b-it-think]
+
+  gemma-4-31b-it:
+    served_name: gemma-4-31b-it
+    reasoning_parser: gemma4
+    configs: [gemma-4-31b-it-nothink, gemma-4-31b-it-think]
+
+  gemma-4-26b-a4b-it:
+    served_name: gemma-4-26b-a4b-it
+    reasoning_parser: gemma4
+    configs: [gemma-4-26b-a4b-it-nothink, gemma-4-26b-a4b-it-think]
+
+  gpt-oss-20b:
+    served_name: gpt-oss-20b
+    reasoning_parser: GptOss
+    configs: [gpt-oss-20b-low, gpt-oss-20b-high]
+
+  muse-glimmer-30b:
+    served_name: muse-glimmer-30b
+    reasoning_parser: muse-glimmer
+    configs: [muse-glimmer-30b-low, muse-glimmer-30b-high]
+
+  qolda-avl-9b:
+    served_name: qolda-avl-9b
+    reasoning_parser: qwen3       # built on Qwen3-VL-Thinking
+    extra_serve_args: "--trust-remote-code"
+    configs: [qolda-avl-9b]
+
+  qolda-avl-34b:
+    served_name: qolda-avl-34b
+    reasoning_parser: qwen3
+    extra_serve_args: "--trust-remote-code"
+    configs: [qolda-avl-34b]
+
+# qolda-avl-5b is present on disk but excluded from the study.

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stability"
+version = "0.1.0"
+description = "Kazakh LLM evaluation-stability harness (TAI-Eval @ NeurIPS 2026)"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.40.0",
+    "pydantic>=2.5",
+    "pyyaml>=6.0",
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "tqdm>=4.66",
+    "orjson>=3.9",
+    "pyarrow>=14.0",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+tokenizer = ["transformers>=4.40"]
+embed = ["sentence-transformers>=3.0"]
+dev = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

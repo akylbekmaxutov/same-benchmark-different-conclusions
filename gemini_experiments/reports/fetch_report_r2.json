@@ -1,0 +1,21 @@
+{
+  "round": 2,
+  "counts": {
+    "ok": 601,
+    "failed": 24
+  },
+  "per_dataset": {
+    "kazbench_kk": {
+      "n": 65,
+      "n_failed": 2
+    },
+    "kazculture": {
+      "n": 23,
+      "n_failed": 0
+    },
+    "kazmmlu": {
+      "n": 537,
+      "n_failed": 22
+    }
+  }
+}

@@ -1,0 +1,34 @@
+# Auto-generated 2026-08-23 from the model card in
+#   /path/to/models/muse-glimmer-30b/README.md
+# Sampling values below are the card's own recommendation for THIS mode.
+# Omit a key (delete the line) to let the server's generation_config decide;
+# a key that is absent here is absent from the request body entirely.
+
+config_id: muse-glimmer-30b-high
+family: muse-glimmer
+model_name: muse-glimmer-30b          # must equal --served-model-name
+base_url: "http://localhost:8000/v1"
+api_key: EMPTY
+
+# analysis metadata -- recorded on every result row, not used at inference
+params_total_b: 29.6
+params_active_b: 29.6
+is_moe: false
+kazakh_specialized: false
+reasoning_regime: "high"
+
+# reasoning level is set through the system prompt for this family
+system_prompt: "Reasoning strength: high"
+
+sampling:
+  temperature: 1.0
+  top_p: 0.95
+  top_k: 64
+  max_tokens: 32768
+
+seed_base: 1234
+max_concurrency: 24
+capture_logprobs: false
+endpoint_kind: vllm
+notes: >-
+  card wording is 'Reasoning strength: <value>' -- NOT the 'Reasoning: <value>' that gpt-oss uses. Levels: low/medium/high/xhigh.

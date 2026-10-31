@@ -1,0 +1,103 @@
+# Shared settings for the Kazakh evaluation-stability harness.
+# CLI > model YAML > this file > omitted.  "Omitted" is a real state.
+
+# ---------------------------------------------------------------- paths
+# READ-ONLY Gemini-generated corpus.  Never written to by this harness.
+# Relocating the corpus is a one-line change here.
+raw_data_dir: data
+# Everything this harness produces.  Kept out of raw_data_dir so the
+# read-only guarantee is structural, not a matter of discipline.
+work_dir: work
+results_dir: results
+
+# Which perturbation artifact to read.
+#   released -> data/perturbations/<ds>_perturbations.jsonl      (validation_passed only)
+#   full     -> data/perturbations/<ds>_perturbations_full.jsonl (everything, incl. failures)
+perturbation_variant: released
+
+datasets: [kazmmlu, kazculture, kazbench_kk]
+
+# ---------------------------------------------------------------- sampling of items
+subsample:
+  n_target: 2000
+  seed: 20260815
+  # Ordered candidate stratification keys per dataset; the first key whose
+  # allocation leaves every non-degenerate cell >= min_cell_after_alloc wins.
+  # The key actually used is recorded in the sample index file.
+  stratify_keys:
+    kazmmlu:      [[category]]
+    kazculture:   [[category]]
+    kazbench_kk:  [[category, subcategory], [category]]
+  min_cell_after_alloc: 15
+
+# O1-C cyclic-shift diagnostic pool: ~500 four-option items, sampled across
+# all three benchmarks proportionally to their eligible counts.
+o1c_pool:
+  n_target: 500
+  seed: 20260815
+
+# No-question leakage probe (NQR / NQI): fixed subsample per benchmark.
+nq_pool:
+  n_per_dataset: 300
+  seed: 20260815
+
+# ---------------------------------------------------------------- conditions
+shuffle_seed: 20260815          # O1 per-item option permutation salt
+repeats:
+  B0: 3
+  default: 1
+
+# The six configurations the O1-C diagnostic is declared to run on.
+# The runner refuses --conditions O1C for a config_id not on this list
+# unless --force.  Chosen once, spanning family, scale and reasoning regime.
+o1c_configs:
+  - qwen3.5-9b-nothink
+  - qwen3.5-9b-think
+  - gemma-4-31b-it-think
+  - gpt-oss-20b-high
+  - muse-glimmer-30b-high
+  - qolda-avl-9b
+
+# The no-question leakage probe (NQR/NQI) needs at least three configurations
+# spanning capability -- a weak model landing at chance proves nothing about
+# whether the noise carries signal a strong model could exploit.
+nq_probe_configs:
+  - qwen3.5-9b-nothink
+  - gpt-oss-20b-high
+  - qolda-avl-9b
+
+# The three configurations the P1 floor-transfer check runs on (--repeat P1=3).
+p1_floor_configs:
+  - qwen3.5-9b-think
+  - gemma-4-12b-it-think
+  - qolda-avl-9b
+
+# ---------------------------------------------------------------- runtime defaults
+max_concurrency: 32
+timeout_s: 600
+max_attempts: 5
+endpoint_kind: vllm
+capture_logprobs: false
+structured_output: false
+seed_base: 1234
+
+# Fail-fast guards (see GUIDELINE.md §9)
+guards:
+  first_n: 50
+  max_parse_failure_rate: 0.50
+  max_truncation_rate: 0.25
+  max_context_length_error_rate: 0.005
+  abort_on_think_tags_in_content: true
+
+# Build-time prompt-length guard (§3.3).  null -> skip tokenization.
+length_guard:
+  tokenizer: null               # e.g. "Qwen/Qwen3-8B"
+  max_model_len: 32768
+  warn_fraction: 0.8
+
+# ---------------------------------------------------------------- analysis
+parse_policies: [excluded, incorrect]
+bootstrap_resamples: 10000
+bootstrap_seed: 20260815
+near_chance_alpha: 0.05
+consensus_top_decile: 0.10
